@@ -4461,3 +4461,207 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [01:31:27.802] Browser WARN    Image with src "/certificates/cer4.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [01:31:27.802] Browser WARN    Image with src "/certificates/cer6.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [01:31:31.853] Browser WARN    Image with src "/certificates/cer7.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:44:58.678] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:44:58.984] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="dark" suppressHydrationWarning={true}>
+                          <body
+                            className="antialiased"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+-                           __processed_32287ee2-664c-4c09-b3c8-8e9ea26bb9a6__="true"
+                          >
+                  ...
+
+[01:44:58.984] Browser WARN    Image with src "/Uchith.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:46:20.956] Server  LOG     ✓ Compiled in 148ms
+[01:46:25.456] Server  LOG     ✓ Compiled in 25ms
+[01:46:30.167] Server  LOG     ✓ Compiled in 39ms
+[01:46:32.026] Server  LOG     ✓ Compiled in 19ms
+[01:46:36.075] Server  LOG     ✓ Compiled in 37ms
+[01:46:37.374] Server  LOG     ✓ Compiled in 24ms
+[01:46:44.365] Server  LOG     ✓ Compiled in 51ms
+[01:46:46.661] Server  LOG     ✓ Compiled in 29ms
+[01:47:27.861] Server  LOG     ✓ Compiled in 47ms
+[01:47:27.952] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/Hma.jpeg" "received" null
+[01:47:30.999] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/Hamna.jpeg" "received" null
+[01:47:31.009] Server  LOG     ✓ Compiled in 17ms
+[01:47:33.152] Server  LOG     ✓ Compiled in 26ms
+[01:50:43.894] Server  LOG     ✓ Compiled in 154ms
+[01:50:54.345] Server  LOG     ✓ Compiled in 20ms
+[01:52:00.129] Server  LOG     ✓ Compiled in 46ms
+[01:52:03.167] Server  LOG     ✓ Compiled in 22ms
+[01:52:12.935] Server  LOG     ✓ Compiled in 39ms
+[01:52:20.770] Server  LOG     ✓ Compiled in 77ms
+[01:52:21.308] Browser ERROR   ./src/components/About.tsx:84:7
+Parsing ecmascript source code failed
+  82 |       },
+  83 |       {}
+> 84 |       {
+     |       ^
+  85 |         title: "Applied Project Development",
+  86 |         org: "Coursework & Self-Directed Practice",
+  87 |         period: "2024 – 2025",
+
+Expected ',', got '{'
+
+Import trace:
+  Server Component:
+    ./src/components/About.tsx
+    ./app/page.tsx
+[01:52:22.309] Browser ERROR   ./src/components/About.tsx:86:7
+Parsing ecmascript source code failed
+  84 |         
+  85 |       }
+> 86 |       {
+     |       ^
+  87 |         title: "Applied Project Development",
+  88 |         org: "Coursework & Self-Directed Practice",
+  89 |         period: "2024 – 2025",
+
+Expected ',', got '{'
+
+Import trace:
+  Server Component:
+    ./src/components/About.tsx
+    ./app/page.tsx
+[01:52:25.310] Browser ERROR   ./src/components/About.tsx:88:7
+Parsing ecmascript source code failed
+  86 |         period: "2023 – Present",
+  87 |       }
+> 88 |       {
+     |       ^
+  89 |         title: "Applied Project Development",
+  90 |         org: "Coursework & Self-Directed Practice",
+  91 |         period: "2024 – 2025",
+
+Expected ',', got '{'
+
+Import trace:
+  Server Component:
+    ./src/components/About.tsx
+    ./app/page.tsx
+[01:52:28.306] Browser ERROR   ./src/components/About.tsx:92:7
+Parsing ecmascript source code failed
+  90 |         ],
+  91 |       }
+> 92 |       {
+     |       ^
+  93 |         title: "Applied Project Development",
+  94 |         org: "Coursework & Self-Directed Practice",
+  95 |         period: "2024 – 2025",
+
+Expected ',', got '{'
+
+Import trace:
+  Server Component:
+    ./src/components/About.tsx
+    ./app/page.tsx
+[01:52:37.704] Server  LOG     ✓ Compiled in 28ms
+[01:52:43.021] Server  LOG     ✓ Compiled in 28ms
+[01:52:47.693] Server  LOG     ✓ Compiled in 22ms
+[01:52:48.899] Server  LOG     ✓ Compiled in 22ms
+[01:53:06.758] Server  LOG     ✓ Compiled in 57ms
+[01:53:13.822] Server  LOG     ✓ Compiled in 42ms
+[01:53:18.790] Server  LOG     ✓ Compiled in 37ms
+[01:55:32.801] Server  LOG     ✓ Compiled in 45ms
+[01:55:33.305] Browser WARN    Image with src "/HamnaIMG.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:56:44.697] Server  LOG     ✓ Compiled in 154ms
+[01:56:44.817] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/HamnaIMG.jpeg.jpeg" "received" null
+[01:56:48.166] Server  LOG     ✓ Compiled in 29ms
+[01:57:01.681] Browser WARN    Image with src "/certificates/cer2.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:57:01.682] Browser WARN    Image with src "/certificates/cer3.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:57:01.682] Browser WARN    Image with src "/certificates/cer4.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:57:01.682] Browser WARN    Image with src "/certificates/cer1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:57:01.682] Browser WARN    Image with src "/certificates/cer5.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:57:01.682] Browser WARN    Image with src "/certificates/cer6.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:57:01.682] Browser WARN    Image with src "/certificates/cer7.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:59:22.596] Server  LOG     ✓ Compiled in 171ms
+[01:59:22.713] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/certificates/er2.jpeg" "received" null
+[01:59:24.121] Server  LOG     ✓ Compiled in 39ms
+[01:59:24.182] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/certificates/Cer2.jpeg" "received" null
+[01:59:27.639] Server  LOG     ✓ Compiled in 43ms
+[01:59:27.697] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/certificates/Cerq.jpeg" "received" null
+[01:59:29.241] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/certificates/Cer1.jpeg" "received" null
+[01:59:29.251] Server  LOG     ✓ Compiled in 21ms
+[01:59:46.631] Server  LOG     ✓ Compiled in 105ms
+[01:59:47.305] Browser ERROR   ./src/components/academic/Certificates.tsx:38:38
+Parsing ecmascript source code failed
+  36 |     () => [
+  37 |       {
+> 38 |         title: "Python for Beginners"",
+     |                                      ^^
+  39 |         issuer: "University of Moratuwa",
+  40 |         date: "2024",
+  41 |         type: "Technical",
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./src/components/academic/Certificates.tsx
+    ./app/page.tsx
+[01:59:49.652] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/certificates/Cer1.jpeg" "received" null
+[01:59:50.311] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Python for Beginners
+[01:59:50.311] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Python for Beginners
+[02:00:06.098] Server  LOG     ✓ Compiled in 31ms
+[02:00:06.305] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Python for Beginners
+[02:00:12.848] Server  LOG     ✓ Compiled in 39ms
+[02:00:14.991] Server  LOG     ✓ Compiled in 21ms
+[02:00:15.305] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Python for Beginners
+[02:00:19.150] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/certificates/Cer3.jpeg" "received" null
+[02:00:19.157] Server  LOG     ✓ Compiled in 54ms
+[02:00:19.305] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Python for Beginners
+[02:00:21.010] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/certificates/Cer2.jpeg" "received" null
+[02:00:21.025] Server  LOG     ✓ Compiled in 23ms
+[02:00:21.303] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Python for Beginners
+[02:00:44.590] Server  LOG     ✓ Compiled in 28ms
+[02:00:45.305] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Python for Beginners
+[02:00:47.403] Server  LOG     ✓ Compiled in 25ms
+[02:00:48.305] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Python for Beginners
+[02:01:38.023] Server  LOG     ✓ Compiled in 135ms
+[02:01:42.337] Server  LOG     ✓ Compiled in 40ms
+[02:02:15.382] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/certificates/Cer2.jpeg" "received" null
+[02:02:17.564] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/certificates/Cer2.jpeg" "received" null
+[02:02:21.576] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/certificates/Cer1.jpeg" "received" null
+[02:02:41.513] Server  LOG     ✓ Compiled in 44ms
+[02:02:45.188] Server  LOG     ✓ Compiled in 63ms
+[02:02:45.188] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/certificates/Cer1." "received" null
+[02:02:47.128] Server  LOG     ✓ Compiled in 30ms
+[02:03:30.137] Server  LOG     ✓ Compiled in 43ms
+[02:03:34.928] Server  LOG     ✓ Compiled in 22ms
+[02:03:35.876] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/certificates/Cer1.jpeg" "received" "application/pdf"
+[02:03:38.836] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/certificates/Cer1.jpeg" "received" "application/pdf"
+[02:03:46.424] Server  LOG     ✓ Compiled in 33ms
+[02:03:46.456] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/certificates/Cer1." "received" null
+[02:03:48.399] Server  LOG     ✓ Compiled in 25ms
+[02:03:49.634] Server  LOG     ✓ Compiled in 28ms
+[02:03:51.631] Server  LOG     ✓ Compiled in 40ms
+[02:04:02.094] Server  LOG     ✓ Compiled in 27ms
+[02:04:05.562] Server  LOG     ✓ Compiled in 36ms
+[02:10:22.262] Server  LOG     ✓ Compiled in 154ms

@@ -600,7 +600,7 @@ function Hero() {
                                         lineNumber: 67,
                                         columnNumber: 13
                                     }, this),
-                                    "BSc (Hons) Information Technology Undergraduate"
+                                    "BSc (Hons) Software Engineering Undergraduate"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Hero.tsx",
@@ -613,7 +613,7 @@ function Hero() {
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-blue-500",
-                                        children: "Uchith Chethana"
+                                        children: "Hamna Hakeem"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Hero.tsx",
                                         lineNumber: 73,
@@ -827,8 +827,8 @@ function Hero() {
                                     },
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            src: "/Uchith.jpeg",
-                                            alt: "Uchith Chethana",
+                                            src: "/HamnaIMG.jpeg",
+                                            alt: "Hamna Hakeem",
                                             fill: true,
                                             priority: true,
                                             className: "object-cover"
@@ -1210,14 +1210,14 @@ function SignatureLogo({ size = 44, withText = true, className = "" }) {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "text-white font-semibold text-lg tracking-tight",
                         children: [
-                            "Uchith",
+                            "Hamna",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-blue-500",
                                 children: "."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Logo.tsx",
                                 lineNumber: 149,
-                                columnNumber: 19
+                                columnNumber: 18
                             }, this)
                         ]
                     }, void 0, true, {
@@ -2421,12 +2421,12 @@ function About() {
                     label: "Academic Years"
                 },
                 {
-                    value: 3,
+                    value: 5,
                     suffix: "+",
                     label: "Flagship Projects"
                 },
                 {
-                    value: 7,
+                    value: 2,
                     label: "Certificates"
                 },
                 {
@@ -2448,6 +2448,15 @@ function About() {
                     ]
                 },
                 {
+                    title: "AAT Level 2 in Accounting & Business",
+                    org: "AAT Sri Lanka",
+                    period: "2023 – Present",
+                    points: [
+                        "Gained foundational knowledge in accounting principles, financial transactions, and business operations.",
+                        "Enhanced analytical and problem-solving skills through practical exercises and case studies."
+                    ]
+                },
+                {
                     title: "Applied Project Development",
                     org: "Coursework & Self-Directed Practice",
                     period: "2024 – 2025",
@@ -2457,7 +2466,7 @@ function About() {
                     ]
                 },
                 {
-                    title: "Continuous Learning Evidence",
+                    title: "Continuous Learning and Reflection",
                     org: "Certificates, Reflection, and Career Planning",
                     period: "Current Focus",
                     points: [
@@ -2479,20 +2488,20 @@ function About() {
                         className: "absolute -top-24 -left-24 h-72 w-72 rounded-full bg-gradient-to-tr from-purple-500/25 via-pink-500/20 to-blue-500/25 blur-3xl"
                     }, void 0, false, {
                         fileName: "[project]/src/components/About.tsx",
-                        lineNumber: 108,
+                        lineNumber: 117,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute -bottom-24 -right-24 h-80 w-80 rounded-full bg-gradient-to-tr from-blue-500/25 via-cyan-500/20 to-emerald-500/25 blur-3xl"
                     }, void 0, false, {
                         fileName: "[project]/src/components/About.tsx",
-                        lineNumber: 109,
+                        lineNumber: 118,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/About.tsx",
-                lineNumber: 107,
+                lineNumber: 116,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2524,20 +2533,20 @@ function About() {
                                         children: "Profile"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/About.tsx",
-                                        lineNumber: 121,
+                                        lineNumber: 130,
                                         columnNumber: 22
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/About.tsx",
-                                lineNumber: 120,
+                                lineNumber: 129,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "mx-auto mt-4 h-1 w-16 rounded-full bg-blue-500"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/About.tsx",
-                                lineNumber: 123,
+                                lineNumber: 132,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2545,13 +2554,13 @@ function About() {
                                 children: "A concise overview of my degree path, current learning priorities, academic evidence, and the software engineering strengths I am building."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/About.tsx",
-                                lineNumber: 124,
+                                lineNumber: 133,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/About.tsx",
-                        lineNumber: 113,
+                        lineNumber: 122,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2580,18 +2589,18 @@ function About() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "relative h-20 w-20 overflow-hidden rounded-2xl border border-white/10",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                    src: "/Uchith.jpeg",
-                                                    alt: "Uchith Chethana",
+                                                    src: "/HamnaIMG.jpeg",
+                                                    alt: "Hamna Hakeem",
                                                     fill: true,
                                                     className: "object-cover"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/About.tsx",
-                                                    lineNumber: 140,
+                                                    lineNumber: 149,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/About.tsx",
-                                                lineNumber: 139,
+                                                lineNumber: 148,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2601,7 +2610,7 @@ function About() {
                                                         children: "Hamna Hakeem"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/About.tsx",
-                                                        lineNumber: 143,
+                                                        lineNumber: 152,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2609,19 +2618,19 @@ function About() {
                                                         children: "Software Engineering Undergraduate"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/About.tsx",
-                                                        lineNumber: 144,
+                                                        lineNumber: 153,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/About.tsx",
-                                                lineNumber: 142,
+                                                lineNumber: 151,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/About.tsx",
-                                        lineNumber: 138,
+                                        lineNumber: 147,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2629,7 +2638,7 @@ function About() {
                                         children: "I use this portfolio to show how academic study connects to real software engineering practice. It combines technical work, reflective learning, certificates, and clear evidence of progress."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/About.tsx",
-                                        lineNumber: 148,
+                                        lineNumber: 157,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2642,7 +2651,7 @@ function About() {
                                                 children: "Download CV"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/About.tsx",
-                                                lineNumber: 155,
+                                                lineNumber: 164,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -2651,13 +2660,13 @@ function About() {
                                                 children: "View Career Plan"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/About.tsx",
-                                                lineNumber: 162,
+                                                lineNumber: 171,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/About.tsx",
-                                        lineNumber: 154,
+                                        lineNumber: 163,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2672,18 +2681,18 @@ function About() {
                                                 children: tag
                                             }, tag, false, {
                                                 fileName: "[project]/src/components/About.tsx",
-                                                lineNumber: 177,
+                                                lineNumber: 186,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/About.tsx",
-                                        lineNumber: 170,
+                                        lineNumber: 179,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/About.tsx",
-                                lineNumber: 131,
+                                lineNumber: 140,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2710,7 +2719,7 @@ function About() {
                                             className: "absolute inset-0 rounded-2xl bg-gradient-to-tr from-blue-500/10 via-purple-500/10 to-pink-500/10"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/About.tsx",
-                                            lineNumber: 195,
+                                            lineNumber: 204,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2721,7 +2730,7 @@ function About() {
                                                     children: "Current Academic Focus"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/About.tsx",
-                                                    lineNumber: 197,
+                                                    lineNumber: 206,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2729,7 +2738,7 @@ function About() {
                                                     children: "My current focus is strengthening practical software engineering ability by connecting coursework with applied projects, cleaner system thinking, and better technical communication."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/About.tsx",
-                                                    lineNumber: 198,
+                                                    lineNumber: 207,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2744,12 +2753,12 @@ function About() {
                                                             children: item
                                                         }, item, false, {
                                                             fileName: "[project]/src/components/About.tsx",
-                                                            lineNumber: 211,
+                                                            lineNumber: 220,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/About.tsx",
-                                                    lineNumber: 204,
+                                                    lineNumber: 213,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2758,35 +2767,35 @@ function About() {
                                                             ...stat
                                                         }, stat.label, false, {
                                                             fileName: "[project]/src/components/About.tsx",
-                                                            lineNumber: 222,
+                                                            lineNumber: 231,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/About.tsx",
-                                                    lineNumber: 220,
+                                                    lineNumber: 229,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/About.tsx",
-                                            lineNumber: 196,
+                                            lineNumber: 205,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/About.tsx",
-                                    lineNumber: 194,
+                                    lineNumber: 203,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/About.tsx",
-                                lineNumber: 187,
+                                lineNumber: 196,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/About.tsx",
-                        lineNumber: 130,
+                        lineNumber: 139,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2814,7 +2823,7 @@ function About() {
                                         children: "Academic Journey"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/About.tsx",
-                                        lineNumber: 238,
+                                        lineNumber: 247,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2822,13 +2831,13 @@ function About() {
                                         children: "How my study path has translated into practical growth"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/About.tsx",
-                                        lineNumber: 239,
+                                        lineNumber: 248,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/About.tsx",
-                                lineNumber: 237,
+                                lineNumber: 246,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2839,7 +2848,7 @@ function About() {
                                         className: "absolute left-6 top-10 bottom-10 w-px bg-white/10"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/About.tsx",
-                                        lineNumber: 243,
+                                        lineNumber: 252,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2851,12 +2860,12 @@ function About() {
                                                         className: "absolute left-5 top-1.5",
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TimelineDot, {}, void 0, false, {
                                                             fileName: "[project]/src/components/About.tsx",
-                                                            lineNumber: 249,
+                                                            lineNumber: 258,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/About.tsx",
-                                                        lineNumber: 248,
+                                                        lineNumber: 257,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2869,7 +2878,7 @@ function About() {
                                                                         children: item.title
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/About.tsx",
-                                                                        lineNumber: 254,
+                                                                        lineNumber: 263,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2877,13 +2886,13 @@ function About() {
                                                                         children: item.org
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/About.tsx",
-                                                                        lineNumber: 255,
+                                                                        lineNumber: 264,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/About.tsx",
-                                                                lineNumber: 253,
+                                                                lineNumber: 262,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2891,13 +2900,13 @@ function About() {
                                                                 children: item.period
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/About.tsx",
-                                                                lineNumber: 257,
+                                                                lineNumber: 266,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/About.tsx",
-                                                        lineNumber: 252,
+                                                        lineNumber: 261,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -2910,48 +2919,48 @@ function About() {
                                                                         "aria-hidden": true
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/About.tsx",
-                                                                        lineNumber: 263,
+                                                                        lineNumber: 272,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         children: point
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/About.tsx",
-                                                                        lineNumber: 264,
+                                                                        lineNumber: 273,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, point, true, {
                                                                 fileName: "[project]/src/components/About.tsx",
-                                                                lineNumber: 262,
+                                                                lineNumber: 271,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/About.tsx",
-                                                        lineNumber: 260,
+                                                        lineNumber: 269,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, `${item.title}-${item.period}`, true, {
                                                 fileName: "[project]/src/components/About.tsx",
-                                                lineNumber: 247,
+                                                lineNumber: 256,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/About.tsx",
-                                        lineNumber: 245,
+                                        lineNumber: 254,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/About.tsx",
-                                lineNumber: 242,
+                                lineNumber: 251,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/About.tsx",
-                        lineNumber: 230,
+                        lineNumber: 239,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -2979,7 +2988,7 @@ function About() {
                                         children: "Portfolio Coverage"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/About.tsx",
-                                        lineNumber: 282,
+                                        lineNumber: 291,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2987,13 +2996,13 @@ function About() {
                                         children: "The core evidence areas included in this academic portfolio"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/About.tsx",
-                                        lineNumber: 285,
+                                        lineNumber: 294,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/About.tsx",
-                                lineNumber: 281,
+                                lineNumber: 290,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3023,7 +3032,7 @@ function About() {
                                                 children: item.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/About.tsx",
-                                                lineNumber: 313,
+                                                lineNumber: 322,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3031,36 +3040,36 @@ function About() {
                                                 children: item.detail
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/About.tsx",
-                                                lineNumber: 314,
+                                                lineNumber: 323,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, item.title, true, {
                                         fileName: "[project]/src/components/About.tsx",
-                                        lineNumber: 309,
+                                        lineNumber: 318,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/About.tsx",
-                                lineNumber: 290,
+                                lineNumber: 299,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/About.tsx",
-                        lineNumber: 274,
+                        lineNumber: 283,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/About.tsx",
-                lineNumber: 112,
+                lineNumber: 121,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/About.tsx",
-        lineNumber: 106,
+        lineNumber: 115,
         columnNumber: 5
     }, this);
 }
@@ -4906,67 +4915,22 @@ function Certificates() {
     const certs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
         "Certificates.useMemo[certs]": ()=>[
                 {
-                    title: "Python Programming",
-                    issuer: "University of Moratuwa",
-                    date: "2024",
-                    type: "Technical",
-                    skillImproved: "Python fundamentals",
-                    proof: "Strengthened core Python syntax, data types, control flow, and problem solving.",
-                    file: "/certificates/cer2.jpeg"
-                },
-                {
                     title: "Python for Beginners",
                     issuer: "University of Moratuwa",
                     date: "2024",
                     type: "Technical",
-                    skillImproved: "Python programming practice",
+                    skillImproved: "Python fundamentals",
                     proof: "Improved hands-on programming and writing cleaner, reusable code.",
-                    file: "/certificates/cer3.jpeg"
+                    file: "/certificates/Cer1.pdf"
                 },
                 {
-                    title: "Adobe Photoshop Advanced",
-                    issuer: "PhotoShop",
-                    date: "2022",
-                    type: "Technical",
-                    skillImproved: "Image editing practice",
-                    proof: "Improved hands-on programming and writing cleaner, reusable code.",
-                    file: "/certificates/cer1.jpeg"
-                },
-                {
-                    title: "Higher Deploma in Information Technology",
-                    issuer: "Sliit",
+                    title: "Web Design for Beginners",
+                    issuer: "University of Moratuwa",
                     date: "2024",
                     type: "Technical",
-                    skillImproved: "Information Technology",
+                    skillImproved: "Web design principles",
                     proof: "Improved hands-on programming and writing cleaner, reusable code.",
-                    file: "/certificates/cer4.jpeg"
-                },
-                {
-                    title: "CodeFest Competition",
-                    issuer: "Sliit",
-                    date: "2025",
-                    type: "Technical",
-                    skillImproved: "Information Technology",
-                    proof: "Improved hands-on programming and writing cleaner, reusable code.",
-                    file: "/certificates/cer5.jpeg"
-                },
-                {
-                    title: "Canvas app in Power Platform",
-                    issuer: "Microsoft",
-                    date: "2026",
-                    type: "Technical",
-                    skillImproved: "Information Technology",
-                    proof: "Improved hands-on programming and writing cleaner, reusable code.",
-                    file: "/certificates/cer6.jpeg"
-                },
-                {
-                    title: "Manage Canvas app in Power Platform",
-                    issuer: "Microsoft",
-                    date: "2026",
-                    type: "Technical",
-                    skillImproved: "Information Technology",
-                    proof: "Improved hands-on programming and writing cleaner, reusable code.",
-                    file: "/certificates/cer7.jpeg"
+                    file: "/certificates/Cer2.pdf"
                 }
             ]
     }["Certificates.useMemo[certs]"], []);
@@ -4998,20 +4962,20 @@ function Certificates() {
                         className: "absolute -top-24 -left-24 h-72 w-72 rounded-full bg-blue-600/15 blur-3xl"
                     }, void 0, false, {
                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                        lineNumber: 125,
+                        lineNumber: 80,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute -bottom-28 -right-28 h-80 w-80 rounded-full bg-emerald-500/10 blur-3xl"
                     }, void 0, false, {
                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                        lineNumber: 126,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                lineNumber: 124,
+                lineNumber: 79,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5039,14 +5003,14 @@ function Certificates() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiAward"], {}, void 0, false, {
                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                        lineNumber: 139,
+                                        lineNumber: 94,
                                         columnNumber: 13
                                     }, this),
                                     "Certifications"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                lineNumber: 138,
+                                lineNumber: 93,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -5058,20 +5022,20 @@ function Certificates() {
                                         children: "& Evidence"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                        lineNumber: 144,
+                                        lineNumber: 99,
                                         columnNumber: 26
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                lineNumber: 143,
+                                lineNumber: 98,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "mx-auto mt-4 h-1 w-16 rounded-full bg-blue-500"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                lineNumber: 147,
+                                lineNumber: 102,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5079,13 +5043,13 @@ function Certificates() {
                                 children: "Certificates obtained within the last year (technical/soft skills), showing evidence of continuous learning and skill improvement."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                lineNumber: 149,
+                                lineNumber: 104,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                        lineNumber: 131,
+                        lineNumber: 86,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -5114,7 +5078,7 @@ function Certificates() {
                                             className: "absolute left-4 top-1/2 -translate-y-1/2 text-slate-500"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/academic/Certificates.tsx",
-                                            lineNumber: 166,
+                                            lineNumber: 121,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -5124,7 +5088,7 @@ function Certificates() {
                                             className: "w-full rounded-xl bg-slate-900/40 border border-slate-800 pl-11 pr-10 py-3 text-slate-200 placeholder:text-slate-500 outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 transition"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/academic/Certificates.tsx",
-                                            lineNumber: 167,
+                                            lineNumber: 122,
                                             columnNumber: 15
                                         }, this),
                                         query ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -5135,18 +5099,18 @@ function Certificates() {
                                             children: "✕"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/academic/Certificates.tsx",
-                                            lineNumber: 174,
+                                            lineNumber: 129,
                                             columnNumber: 17
                                         }, this) : null
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/academic/Certificates.tsx",
-                                    lineNumber: 165,
+                                    lineNumber: 120,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                lineNumber: 164,
+                                lineNumber: 119,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5167,19 +5131,19 @@ function Certificates() {
                                         children: t
                                     }, t, false, {
                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                        lineNumber: 191,
+                                        lineNumber: 146,
                                         columnNumber: 17
                                     }, this);
                                 })
                             }, void 0, false, {
                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                lineNumber: 187,
+                                lineNumber: 142,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                        lineNumber: 156,
+                        lineNumber: 111,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5223,12 +5187,12 @@ function Certificates() {
                                                                 size: 22
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                                lineNumber: 232,
+                                                                lineNumber: 187,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                            lineNumber: 231,
+                                                            lineNumber: 186,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5236,7 +5200,7 @@ function Certificates() {
                                                             children: "PDF"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                            lineNumber: 234,
+                                                            lineNumber: 189,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5244,18 +5208,18 @@ function Certificates() {
                                                             children: "Click to preview"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                            lineNumber: 235,
+                                                            lineNumber: 190,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                    lineNumber: 230,
+                                                    lineNumber: 185,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                lineNumber: 229,
+                                                lineNumber: 184,
                                                 columnNumber: 21
                                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 src: c.file,
@@ -5264,14 +5228,14 @@ function Certificates() {
                                                 className: "object-cover"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                lineNumber: 241,
+                                                lineNumber: 196,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                lineNumber: 249,
+                                                lineNumber: 204,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5282,7 +5246,7 @@ function Certificates() {
                                                         children: c.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                        lineNumber: 251,
+                                                        lineNumber: 206,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5294,19 +5258,19 @@ function Certificates() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                        lineNumber: 254,
+                                                        lineNumber: 209,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                lineNumber: 250,
+                                                lineNumber: 205,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                        lineNumber: 226,
+                                        lineNumber: 181,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5320,7 +5284,7 @@ function Certificates() {
                                                         children: c.type
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                        lineNumber: 262,
+                                                        lineNumber: 217,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5328,13 +5292,13 @@ function Certificates() {
                                                         children: "Click to view"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                        lineNumber: 265,
+                                                        lineNumber: 220,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                lineNumber: 261,
+                                                lineNumber: 216,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5345,7 +5309,7 @@ function Certificates() {
                                                         children: "Skill improved:"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                        lineNumber: 271,
+                                                        lineNumber: 226,
                                                         columnNumber: 21
                                                     }, this),
                                                     " ",
@@ -5353,7 +5317,7 @@ function Certificates() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                lineNumber: 270,
+                                                lineNumber: 225,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5361,25 +5325,25 @@ function Certificates() {
                                                 children: c.proof
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                lineNumber: 277,
+                                                lineNumber: 232,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                        lineNumber: 260,
+                                        lineNumber: 215,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, c.title, true, {
                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                lineNumber: 215,
+                                lineNumber: 170,
                                 columnNumber: 15
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                        lineNumber: 210,
+                        lineNumber: 165,
                         columnNumber: 9
                     }, this),
                     filtered.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5387,13 +5351,13 @@ function Certificates() {
                         children: "No certificates match your search. Try another keyword."
                     }, void 0, false, {
                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                        lineNumber: 288,
+                        lineNumber: 243,
                         columnNumber: 11
                     }, this) : null
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                lineNumber: 129,
+                lineNumber: 84,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -5441,7 +5405,7 @@ function Certificates() {
                                                 children: open.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                lineNumber: 314,
+                                                lineNumber: 269,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5453,13 +5417,13 @@ function Certificates() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                lineNumber: 315,
+                                                lineNumber: 270,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                        lineNumber: 313,
+                                        lineNumber: 268,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5473,14 +5437,14 @@ function Certificates() {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiExternalLink"], {}, void 0, false, {
                                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                        lineNumber: 327,
+                                                        lineNumber: 282,
                                                         columnNumber: 21
                                                     }, this),
                                                     " Open"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                lineNumber: 321,
+                                                lineNumber: 276,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -5490,14 +5454,14 @@ function Certificates() {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiDownload"], {}, void 0, false, {
                                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                        lineNumber: 335,
+                                                        lineNumber: 290,
                                                         columnNumber: 21
                                                     }, this),
                                                     " Download"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                lineNumber: 330,
+                                                lineNumber: 285,
                                                 columnNumber: 19
                                             }, this),
                                             open.link ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -5508,14 +5472,14 @@ function Certificates() {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiExternalLink"], {}, void 0, false, {
                                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                        lineNumber: 345,
+                                                        lineNumber: 300,
                                                         columnNumber: 23
                                                     }, this),
                                                     " Verify"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                lineNumber: 339,
+                                                lineNumber: 294,
                                                 columnNumber: 21
                                             }, this) : null,
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -5525,24 +5489,24 @@ function Certificates() {
                                                 "aria-label": "Close",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiX"], {}, void 0, false, {
                                                     fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                    lineNumber: 355,
+                                                    lineNumber: 310,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                lineNumber: 349,
+                                                lineNumber: 304,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                        lineNumber: 320,
+                                        lineNumber: 275,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                lineNumber: 312,
+                                lineNumber: 267,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5556,7 +5520,7 @@ function Certificates() {
                                             title: `${open.title} certificate preview`
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/academic/Certificates.tsx",
-                                            lineNumber: 364,
+                                            lineNumber: 319,
                                             columnNumber: 21
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "relative w-full h-full min-h-[360px] md:min-h-[520px]",
@@ -5567,17 +5531,17 @@ function Certificates() {
                                                 className: "object-contain p-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                lineNumber: 371,
+                                                lineNumber: 326,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/academic/Certificates.tsx",
-                                            lineNumber: 370,
+                                            lineNumber: 325,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                        lineNumber: 362,
+                                        lineNumber: 317,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5591,7 +5555,7 @@ function Certificates() {
                                                         children: open.type
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                        lineNumber: 384,
+                                                        lineNumber: 339,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5599,7 +5563,7 @@ function Certificates() {
                                                         children: open.skillImproved
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                        lineNumber: 387,
+                                                        lineNumber: 342,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5607,13 +5571,13 @@ function Certificates() {
                                                         children: isPdf(open.file) ? "PDF" : "Image"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                        lineNumber: 390,
+                                                        lineNumber: 345,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                lineNumber: 383,
+                                                lineNumber: 338,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -5621,7 +5585,7 @@ function Certificates() {
                                                 children: "Evidence of skill improvement"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                lineNumber: 395,
+                                                lineNumber: 350,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5629,41 +5593,41 @@ function Certificates() {
                                                 children: open.proof
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                                lineNumber: 398,
+                                                lineNumber: 353,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                                        lineNumber: 382,
+                                        lineNumber: 337,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                                lineNumber: 360,
+                                lineNumber: 315,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/academic/Certificates.tsx",
-                        lineNumber: 304,
+                        lineNumber: 259,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/academic/Certificates.tsx",
-                    lineNumber: 297,
+                    lineNumber: 252,
                     columnNumber: 11
                 }, this) : null
             }, void 0, false, {
                 fileName: "[project]/src/components/academic/Certificates.tsx",
-                lineNumber: 295,
+                lineNumber: 250,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/academic/Certificates.tsx",
-        lineNumber: 119,
+        lineNumber: 74,
         columnNumber: 5
     }, this);
 }

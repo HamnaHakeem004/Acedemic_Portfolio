@@ -62,8 +62,8 @@ export default function About() {
   const stats: Stat[] = useMemo(
     () => [
       { value: 4, label: "Academic Years" },
-      { value: 3, suffix: "+", label: "Flagship Projects" },
-      { value: 7, label: "Certificates" },
+      { value: 5, suffix: "+", label: "Flagship Projects" },
+      { value: 2, label: "Certificates" },
       { value: 4, suffix: "+", label: "Journal Entries" },
     ],
     []
@@ -81,6 +81,15 @@ export default function About() {
         ],
       },
       {
+        title: "AAT Level 2 in Accounting & Business",
+        org: "AAT Sri Lanka",
+        period: "2023 – Present",
+        points: [
+          "Gained foundational knowledge in accounting principles, financial transactions, and business operations.",
+          "Enhanced analytical and problem-solving skills through practical exercises and case studies.",
+        ],
+      },
+      {
         title: "Applied Project Development",
         org: "Coursework & Self-Directed Practice",
         period: "2024 – 2025",
@@ -90,7 +99,7 @@ export default function About() {
         ],
       },
       {
-        title: "Continuous Learning Evidence",
+        title: "Continuous Learning and Reflection",
         org: "Certificates, Reflection, and Career Planning",
         period: "Current Focus",
         points: [
@@ -137,7 +146,7 @@ export default function About() {
           >
             <div className="flex items-center gap-4">
               <div className="relative h-20 w-20 overflow-hidden rounded-2xl border border-white/10">
-                <Image src="/Uchith.jpeg" alt="Uchith Chethana" fill className="object-cover" />
+                <Image src="/HamnaIMG.jpeg" alt="Hamna Hakeem" fill className="object-cover" />
               </div>
               <div>
                 <div className="text-white text-xl font-semibold">Hamna Hakeem</div>

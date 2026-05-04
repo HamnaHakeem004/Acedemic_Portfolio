@@ -146,7 +146,7 @@ export default function SignatureLogo({
       {withText && (
         <div className="leading-tight">
           <div className="text-white font-semibold text-lg tracking-tight">
-            Uchith<span className="text-blue-500">.</span>
+            Hamna<span className="text-blue-500">.</span>
           </div>
           <div className="text-slate-400 text-xs">Academic Portfolio</div>
         </div>
