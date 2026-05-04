@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { FiDownload, FiFileText, FiExternalLink } from "react-icons/fi";
 
 export default function CVSection() {
-  const cvPdf = "/Uchith_cv.pdf";
+  const cvPdf = "/Hamna_Hakeem_CV.pdf";
 
   return (
     <section id="cv" className="relative overflow-hidden bg-black py-24 px-6">

@@ -250,7 +250,7 @@ function Footer() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                         className: "text-3xl font-extrabold text-purple-300",
-                        children: "Uchith Chethana"
+                        children: "Hamna Hakeem"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Footer.tsx",
                         lineNumber: 8,
@@ -258,7 +258,7 @@ function Footer() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "mt-2 text-white/70",
-                        children: "Information Technology Undergraduate | Academic Portfolio"
+                        children: "Software Engineering Undergraduate | Academic Portfolio"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Footer.tsx",
                         lineNumber: 9,
@@ -268,7 +268,7 @@ function Footer() {
                         className: "mt-6 flex items-center gap-6",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "mailto:wgucgjayarathna9898@gmail.com",
+                                href: "mailto:hamnahakeem004@gmail.com",
                                 className: "text-white/70 transition hover:text-white",
                                 "aria-label": "Email",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FiMail"], {
@@ -284,7 +284,7 @@ function Footer() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "https://www.linkedin.com/in/uchith-chethana-8681aa301",
+                                href: "https://www.linkedin.com/in/hamnahakeembscse",
                                 target: "_blank",
                                 rel: "noreferrer",
                                 className: "text-white/70 transition hover:text-white",
@@ -302,7 +302,7 @@ function Footer() {
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "https://github.com/UchithChethana",
+                                href: "https://github.com/hamnahakeem004",
                                 target: "_blank",
                                 rel: "noreferrer",
                                 className: "text-white/70 transition hover:text-white",
@@ -337,7 +337,7 @@ function Footer() {
                         children: [
                             "© ",
                             new Date().getFullYear(),
-                            " Uchith Chethana. All rights reserved."
+                            " Hamna Hakeem. All rights reserved."
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Footer.tsx",
