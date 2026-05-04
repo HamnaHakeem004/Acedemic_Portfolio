@@ -90,7 +90,7 @@ function GlowCard({
         setPos({ x: e.clientX - r.left, y: e.clientY - r.top });
       }}
       onClick={onClick}
-      className={`relative overflow-hidden rounded-2xl border border-slate-800 bg-black/40 backdrop-blur transition ${className}`}
+      className={`relative overflow-hidden rounded-2xl border border-white/55 bg-white/55 backdrop-blur-2xl transition shadow-lg ${className}`}
     >
       {/* cursor glow */}
       <div
@@ -102,7 +102,7 @@ function GlowCard({
         }}
       />
       {/* subtle edge glow */}
-      <div aria-hidden className="pointer-events-none absolute -inset-1 opacity-0 hover:opacity-100 transition duration-500 blur-2xl bg-gradient-to-r from-blue-600/15 via-cyan-500/10 to-indigo-500/15" />
+      <div aria-hidden className="pointer-events-none absolute -inset-1 opacity-0 hover:opacity-100 transition duration-500 blur-2xl bg-linear-to-r from-teal-600/15 via-cyan-500/10 to-emerald-500/15" />
       <div className="relative">{children}</div>
     </div>
   );
@@ -150,10 +150,10 @@ export default function Skills() {
   }, [activeCategory, query, pinned]);
 
   return (
-    <section id="skills" className="relative overflow-hidden bg-slate-900 py-20 px-6">
+    <section id="skills" className="relative overflow-hidden bg-transparent py-20 px-6">
       <div aria-hidden className="pointer-events-none absolute inset-0">
-        <div className="absolute -top-24 -left-24 h-72 w-72 rounded-full bg-blue-600/10 blur-3xl" />
-        <div className="absolute -bottom-24 -right-24 h-80 w-80 rounded-full bg-indigo-500/10 blur-3xl" />
+        <div className="absolute -top-24 -left-24 h-72 w-72 rounded-full bg-emerald-200/30 blur-3xl" />
+        <div className="absolute -bottom-24 -right-24 h-80 w-80 rounded-full bg-teal-200/25 blur-3xl" />
       </div>
 
       <div className="relative max-w-6xl mx-auto">
@@ -164,8 +164,8 @@ export default function Skills() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-white">Learning Areas</h2>
-          <p className="mt-3 text-slate-400 text-lg">
+          <h2 className="text-4xl md:text-5xl font-bold text-slate-900">Learning Areas</h2>
+          <p className="mt-3 text-slate-600 text-lg">
             Technologies and engineering areas strengthened through coursework,
             certifications, and applied project practice
           </p>
@@ -174,7 +174,7 @@ export default function Skills() {
             whileInView={{ width: 80 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="h-[3px] bg-blue-600 mx-auto mt-5 rounded-full"
+            className="h-0.75 bg-teal-600 mx-auto mt-5 rounded-full"
           />
         </motion.div>
 
@@ -188,18 +188,18 @@ export default function Skills() {
           <GlowCard className="p-5">
             <div className="flex items-center justify-between gap-4 flex-wrap">
               <div>
-                <p className="text-sm text-slate-400">Academic Toolkit</p>
-                <p className="text-slate-200 font-medium">Core tools I rely on most in project work</p>
+                <p className="text-sm text-slate-500">Academic Toolkit</p>
+                <p className="text-slate-700 font-medium">Core tools I rely on most in project work</p>
               </div>
               <div className="flex items-center gap-3 flex-wrap justify-end">
                 {stackRow.map(({ name, Icon }) => (
                   <div
                     key={name}
-                    className="flex items-center gap-2 rounded-xl border border-slate-800 bg-slate-950/40 px-3 py-2"
+                    className="flex items-center gap-2 rounded-xl border border-white/55 bg-white/55 px-3 py-2 backdrop-blur-xl shadow-sm"
                     title={name}
                   >
-                    <Icon className="text-slate-200" />
-                    <span className="text-xs text-slate-300">{name}</span>
+                    <Icon className="text-slate-700" />
+                    <span className="text-xs text-slate-600">{name}</span>
                   </div>
                 ))}
               </div>
@@ -211,18 +211,18 @@ export default function Skills() {
         <div className="grid md:grid-cols-2 gap-4 items-start">
           {/* Search */}
           <GlowCard className="p-4">
-            <p className="text-sm text-slate-400">Search</p>
+            <p className="text-sm text-slate-500">Search</p>
             <div className="mt-2 relative">
               <input
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Search learning areas (e.g., React, Next, JWT...)"
-                className="w-full rounded-xl bg-black/40 border border-slate-800 px-4 py-3 text-slate-200 placeholder:text-slate-500 outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 transition"
+                className="w-full rounded-xl bg-white/55 border border-white/55 px-4 py-3 text-slate-700 placeholder:text-slate-400 outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-600/10 transition backdrop-blur-xl shadow-sm"
               />
               {query ? (
                 <button
                   onClick={() => setQuery("")}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-200 transition"
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 transition"
                   aria-label="Clear search"
                 >
                   ✕
@@ -233,7 +233,7 @@ export default function Skills() {
 
           {/* Category tabs */}
           <GlowCard className="p-4">
-            <p className="text-sm text-slate-400">Filter</p>
+            <p className="text-sm text-slate-500">Filter</p>
             <div className="mt-2 flex flex-wrap gap-2">
               {CATEGORIES.map((c) => {
                 const active = c === activeCategory;
@@ -244,8 +244,8 @@ export default function Skills() {
                     className={[
                       "rounded-full px-4 py-2 text-sm border transition",
                       active
-                        ? "bg-blue-600/15 border-blue-600 text-blue-300"
-                        : "bg-black/30 border-slate-800 text-slate-300 hover:border-blue-600 hover:text-blue-200",
+                        ? "bg-blue-50 border-blue-600 text-blue-700"
+                        : "bg-white border-slate-200 text-slate-600 hover:border-blue-600 hover:text-blue-700",
                     ].join(" ")}
                   >
                     {c}
@@ -255,10 +255,10 @@ export default function Skills() {
               {pinned ? (
                 <button
                   onClick={() => setPinned(null)}
-                  className="rounded-full px-4 py-2 text-sm border bg-black/30 border-slate-800 text-slate-300 hover:border-blue-600 hover:text-blue-200 transition"
+                  className="rounded-full px-4 py-2 text-sm border bg-white/55 border-white/55 text-slate-600 hover:border-teal-600 hover:text-teal-700 transition backdrop-blur-xl shadow-sm"
                   title="Clear pinned skill"
                 >
-                  Clear pin: <span className="text-blue-300">{pinned}</span>
+                  Clear pin: <span className="text-teal-300">{pinned}</span>
                 </button>
               ) : null}
             </div>
@@ -288,12 +288,12 @@ export default function Skills() {
                 >
                   <div className="flex items-start justify-between gap-3">
                     <div className="flex items-start gap-3">
-                      <div className="rounded-xl border border-slate-800 bg-slate-950/40 p-3">
-                        {Icon ? <Icon className="text-slate-200 text-lg" /> : <span className="text-slate-300">★</span>}
+                      <div className="rounded-xl border border-white/55 bg-white/60 p-3 backdrop-blur-xl shadow-sm">
+                        {Icon ? <Icon className="text-slate-700 text-lg" /> : <span className="text-slate-500">★</span>}
                       </div>
                       <div>
-                        <h3 className="text-lg font-semibold text-slate-100">{skill.name}</h3>
-                        <p className="mt-1 text-sm text-slate-400">{skill.category}</p>
+                        <h3 className="text-lg font-semibold text-slate-900">{skill.name}</h3>
+                        <p className="mt-1 text-sm text-slate-500">{skill.category}</p>
                       </div>
                     </div>
 
@@ -301,8 +301,8 @@ export default function Skills() {
                       className={[
                         "text-xs rounded-full px-3 py-1 border",
                         isPinned
-                          ? "border-blue-500/60 text-blue-300 bg-blue-600/10"
-                          : "border-slate-700 text-slate-300 bg-slate-900/30",
+                          ? "border-teal-500/60 text-teal-700 bg-teal-50"
+                          : "border-slate-200 text-slate-600 bg-slate-50",
                       ].join(" ")}
                       title="Click to pin"
                     >
@@ -310,27 +310,27 @@ export default function Skills() {
                     </span>
                   </div>
 
-                  <p className="mt-4 text-sm text-slate-300 leading-relaxed">{skill.hint}</p>
+                  <p className="mt-4 text-sm text-slate-600 leading-relaxed">{skill.hint}</p>
 
                   <div className="mt-5">
                     <div className="flex items-center justify-between">
-                      <span className="text-xs text-slate-400">Familiarity</span>
-                      <span className="text-xs text-slate-200">{clamp(skill.level, 0, 100)}%</span>
+                      <span className="text-xs text-slate-500">Familiarity</span>
+                      <span className="text-xs text-slate-700">{clamp(skill.level, 0, 100)}%</span>
                     </div>
-                    <div className="mt-2 h-2 w-full rounded-full bg-slate-800 overflow-hidden">
+                    <div className="mt-2 h-2 w-full rounded-full bg-slate-200 overflow-hidden">
                       <motion.div
                         initial={{ width: 0 }}
                         whileInView={{ width: `${clamp(skill.level, 0, 100)}%` }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.8, ease: "easeOut" }}
-                        className="h-full rounded-full bg-gradient-to-r from-blue-600 via-cyan-500 to-indigo-500"
+                        className="h-full rounded-full bg-linear-to-r from-teal-600 via-cyan-500 to-emerald-500"
                       />
                     </div>
                   </div>
 
                   <div className="mt-5 flex items-center justify-between text-xs text-slate-500">
                     <span>{isPinned ? "Pinned for quick review" : "Click to pin"}</span>
-                    <span className="text-slate-400">Coursework + projects</span>
+                    <span className="text-slate-500">Coursework + projects</span>
                   </div>
                 </GlowCard>
               </motion.div>
@@ -340,7 +340,7 @@ export default function Skills() {
 
         {/* Empty state */}
         {filtered.length === 0 ? (
-          <div className="mt-10 rounded-2xl border border-slate-800 bg-black/40 p-8 text-slate-300">
+          <div className="mt-10 rounded-2xl border border-white/55 bg-white/55 p-8 text-slate-600 shadow-lg backdrop-blur-2xl">
             No learning areas match your search. Try a different keyword.
           </div>
         ) : null}

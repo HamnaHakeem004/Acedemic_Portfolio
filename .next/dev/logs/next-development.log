@@ -4708,3 +4708,518 @@ It can also happen if the client has a browser extension installed which messes 
 [02:15:24.672] Server  LOG     ✓ Compiled in 214ms
 [02:16:35.860] Server  LOG     ✓ Compiled in 236ms
 [02:16:48.964] Server  LOG     ✓ Compiled in 122ms
+[02:21:18.790] Server  LOG     ✓ Compiled in 152ms
+[02:21:36.297] Server  LOG     ✓ Compiled in 134ms
+[02:21:36.408] Browser ERROR   ./src/components/About.tsx:226:27
+Parsing ecmascript source code failed
+  224 |                       {item}
+  225 |                     </div>
+> 226 |                           className="rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-700"
+      |                           ^^^^^^^^^
+  227 |                 </div>
+  228 |
+  229 |                 <div className="mt-10 grid grid-cols-2 gap-8">
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/About.tsx
+    ./app/page.tsx
+[02:21:46.892] Server  LOG     ✓ Compiled in 122ms
+[02:21:46.994] Browser ERROR   ./src/components/About.tsx:226:27
+Parsing ecmascript source code failed
+  224 |                       {item}
+  225 |                     </div>
+> 226 |                           className="rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-700"
+      |                           ^^^^^^^^^
+  227 |                 </div>
+  228 |
+  229 |                 <div className="mt-10 grid grid-cols-2 gap-8">
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/About.tsx
+    ./app/page.tsx
+[02:21:58.589] Server  LOG     ✓ Compiled in 124ms
+[02:21:59.308] Browser ERROR   ./src/components/About.tsx:226:27
+Parsing ecmascript source code failed
+  224 |                       {item}
+  225 |                     </div>
+> 226 |                           className="rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-700"
+      |                           ^^^^^^^^^
+  227 |                 </div>
+  228 |
+  229 |                 <div className="mt-10 grid grid-cols-2 gap-8">
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/About.tsx
+    ./app/page.tsx
+[02:22:30.484] Server  LOG     ✓ Compiled in 59ms
+[02:22:31.308] Browser ERROR   ./src/components/About.tsx:226:27
+Parsing ecmascript source code failed
+  224 |                       {item}
+  225 |                     </div>
+> 226 |                           className="rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-700"
+      |                           ^^^^^^^^^
+  227 |                 </div>
+  228 |
+  229 |                 <div className="mt-10 grid grid-cols-2 gap-8">
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/About.tsx
+    ./app/page.tsx
+[02:22:53.329] Server  LOG     ✓ Compiled in 85ms
+[02:22:54.305] Browser ERROR   ./src/components/About.tsx:226:27
+Parsing ecmascript source code failed
+  224 |                       {item}
+  225 |                     </div>
+> 226 |                           className="rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-700"
+      |                           ^^^^^^^^^
+  227 |                 </div>
+  228 |
+  229 |                 <div className="mt-10 grid grid-cols-2 gap-8">
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/About.tsx
+    ./app/page.tsx
+[02:23:11.327] Server  LOG     ✓ Compiled in 189ms
+[02:23:11.430] Browser ERROR   ./src/components/About.tsx:226:27
+Parsing ecmascript source code failed
+  224 |                       {item}
+  225 |                     </div>
+> 226 |                           className="rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-700"
+      |                           ^^^^^^^^^
+  227 |                 </div>
+  228 |
+  229 |                 <div className="mt-10 grid grid-cols-2 gap-8">
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/About.tsx
+    ./app/page.tsx
+[02:23:21.135] Server  LOG     ✓ Compiled in 158ms
+[02:23:21.311] Browser ERROR   ./src/components/About.tsx:226:27
+Parsing ecmascript source code failed
+  224 |                       {item}
+  225 |                     </div>
+> 226 |                           className="rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-700"
+      |                           ^^^^^^^^^
+  227 |                 </div>
+  228 |
+  229 |                 <div className="mt-10 grid grid-cols-2 gap-8">
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/About.tsx
+    ./app/page.tsx
+[02:23:21.311] Browser ERROR   ./src/components/About.tsx:226:27
+Parsing ecmascript source code failed
+  224 |                       {item}
+  225 |                     </div>
+> 226 |                           className = "rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-700"
+      |                           ^^^^^^^^^
+  227 |                 </div>
+  228 |
+  229 |                 <div className="mt-10 grid grid-cols-2 gap-8">
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/About.tsx
+    ./app/page.tsx
+[02:23:34.102] Server  LOG     ✓ Compiled in 81ms
+[02:23:34.310] Browser ERROR   ./src/components/About.tsx:14:16
+Parsing ecmascript source code failed
+  12 |
+  13 | type TimelineItem = {
+> 14 |           <div className="relative rounded-2xl border border-slate-200 bg-gradient-to-b from-white to-slate-50 p-10 shadow-sm backdrop-blur">
+     |                ^^^^^^^^^
+  15 |             <div aria-hidden className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-blue-50 via-sky-50 to-indigo-50" />
+  16 |             <div className="relative">
+  17 |               <h3 className="text-2xl font-bold text-slate-900">Current Academic Focus</h3>
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/About.tsx
+    ./app/page.tsx
+[02:23:45.308] Browser ERROR   ./src/components/About.tsx:14:8
+Parsing ecmascript source code failed
+  12 |
+  13 | type TimelineItem = {
+> 14 |   <div className = "relative rounded-2xl border border-slate-200 bg-gradient-to-b from-white to-slate-50 p-10 shadow-sm backdrop-blur">
+     |        ^^^^^^^^^
+  15 |             <div aria-hidden className = "absolute inset-0 rounded-2xl bg-gradient-to-tr from-blue-50 via-sky-50 to-indigo-50" />
+  16 |   <div className="relative">
+  17 |     <h3 className="text-2xl font-bold text-slate-900">Current Academic Focus</h3>
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/About.tsx
+    ./app/page.tsx
+[02:23:46.229] Server  LOG     ✓ Compiled in 152ms
+[02:23:47.305] Browser ERROR   ./src/components/About.tsx:14:8
+Parsing ecmascript source code failed
+  12 |
+  13 | type TimelineItem = {
+> 14 |   <div className = "relative rounded-2xl border border-slate-200 bg-gradient-to-b from-white to-slate-50 p-10 shadow-sm backdrop-blur">
+     |        ^^^^^^^^^
+  15 |             <div aria-hidden className = "absolute inset-0 rounded-2xl bg-gradient-to-tr from-blue-50 via-sky-50 to-indigo-50" />
+  16 |   <div className="relative">
+  17 |     <h3 className="text-2xl font-bold text-slate-900">Current Academic Focus</h3>
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/About.tsx
+    ./app/page.tsx
+[02:23:49.311] Browser ERROR   ./src/components/About.tsx:14:8
+Parsing ecmascript source code failed
+  12 |
+  13 | type TimelineItem = {
+> 14 |   <div className = "relative rounded-2xl border border-slate-200 bg-gradient-to-b from-white to-slate-50 p-10 shadow-sm backdrop-blur">
+     |        ^^^^^^^^^
+  15 |             <div aria-hidden className = "absolute inset-0 rounded-2xl bg-gradient-to-tr from-blue-50 via-sky-50 to-indigo-50" />
+  16 |   <div className="relative">
+  17 |     <h3 className="text-2xl font-bold text-slate-900">Current Academic Focus</h3>
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/About.tsx
+    ./app/page.tsx
+[02:24:49.310] Browser ERROR   ./src/components/About.tsx:14:8
+Parsing ecmascript source code failed
+  12 |
+  13 | type TimelineItem = {
+> 14 |   <div className = "relative rounded-2xl border border-slate-200 bg-gradient-to-b from-white to-slate-50 p-10 shadow-sm backdrop-blur">
+     |        ^^^^^^^^^
+  15 |             <div aria-hidden className = "absolute inset-0 rounded-2xl bg-gradient-to-tr from-blue-50 via-sky-50 to-indigo-50" />
+  16 |   <div className="relative">
+  17 |     <h3 className="text-2xl font-bold text-slate-900">Current Academic Focus</h3>
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/About.tsx
+    ./app/page.tsx
+[02:24:49.311] Browser ERROR   ./src/components/About.tsx:14:8
+Parsing ecmascript source code failed
+  12 |
+  13 | type TimelineItem = {
+> 14 |   <div className = "relative rounded-2xl border border-slate-200 bg-gradient-to-b from-white to-slate-50 p-10 shadow-sm backdrop-blur">
+     |        ^^^^^^^^^
+  15 |             <div aria-hidden className = "absolute inset-0 rounded-2xl bg-gradient-to-tr from-blue-50 via-sky-50 to-indigo-50" />
+  16 |   <div className="relative">
+  17 |     <h3 className="text-2xl font-bold text-slate-900">Current Academic Focus</h3>
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/About.tsx
+    ./app/page.tsx
+[02:25:06.223] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/src/components/About'
+  3 | import Navbar from "@/src/components/Navbar";
+  4 | import Skills from "@/src/components/Skills";
+> 5 | import About from "@/src/components/About";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Projects from "@/src/components/Projects";
+  7 | import Footer from "@/src/components/Footer";
+  8 |
+
+Import map: aliased to relative './src/components/About' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:25:06.236] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/src/components/About'
+  3 | import Navbar from "@/src/components/Navbar";
+  4 | import Skills from "@/src/components/Skills";
+> 5 | import About from "@/src/components/About";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Projects from "@/src/components/Projects";
+  7 | import Footer from "@/src/components/Footer";
+  8 |
+
+Import map: aliased to relative './src/components/About' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:25:06.346] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/src/components/About'
+  3 | import Navbar from "@/src/components/Navbar";
+  4 | import Skills from "@/src/components/Skills";
+> 5 | import About from "@/src/components/About";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Projects from "@/src/components/Projects";
+  7 | import Footer from "@/src/components/Footer";
+  8 |
+
+Import map: aliased to relative './src/components/About' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:25:06.347] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/src/components/About'
+  3 | import Navbar from "@/src/components/Navbar";
+  4 | import Skills from "@/src/components/Skills";
+> 5 | import About from "@/src/components/About";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Projects from "@/src/components/Projects";
+  7 | import Footer from "@/src/components/Footer";
+  8 |
+
+Import map: aliased to relative './src/components/About' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:25:06.350] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/src/components/About'
+  3 | import Navbar from "@/src/components/Navbar";
+  4 | import Skills from "@/src/components/Skills";
+> 5 | import About from "@/src/components/About";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Projects from "@/src/components/Projects";
+  7 | import Footer from "@/src/components/Footer";
+  8 |
+
+Import map: aliased to relative './src/components/About' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:25:06.350] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/src/components/About'
+  3 | import Navbar from "@/src/components/Navbar";
+  4 | import Skills from "@/src/components/Skills";
+> 5 | import About from "@/src/components/About";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Projects from "@/src/components/Projects";
+  7 | import Footer from "@/src/components/Footer";
+  8 |
+
+Import map: aliased to relative './src/components/About' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:25:06.351] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/src/components/About'
+  3 | import Navbar from "@/src/components/Navbar";
+  4 | import Skills from "@/src/components/Skills";
+> 5 | import About from "@/src/components/About";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Projects from "@/src/components/Projects";
+  7 | import Footer from "@/src/components/Footer";
+  8 |
+
+Import map: aliased to relative './src/components/About' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:25:06.359] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/src/components/About'
+  3 | import Navbar from "@/src/components/Navbar";
+  4 | import Skills from "@/src/components/Skills";
+> 5 | import About from "@/src/components/About";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Projects from "@/src/components/Projects";
+  7 | import Footer from "@/src/components/Footer";
+  8 |
+
+Import map: aliased to relative './src/components/About' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:25:06.362] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/src/components/About'
+  3 | import Navbar from "@/src/components/Navbar";
+  4 | import Skills from "@/src/components/Skills";
+> 5 | import About from "@/src/components/About";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Projects from "@/src/components/Projects";
+  7 | import Footer from "@/src/components/Footer";
+  8 |
+
+Import map: aliased to relative './src/components/About' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:25:06.363] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/src/components/About'
+  3 | import Navbar from "@/src/components/Navbar";
+  4 | import Skills from "@/src/components/Skills";
+> 5 | import About from "@/src/components/About";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Projects from "@/src/components/Projects";
+  7 | import Footer from "@/src/components/Footer";
+  8 |
+
+Import map: aliased to relative './src/components/About' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:25:06.365] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/src/components/About'
+  3 | import Navbar from "@/src/components/Navbar";
+  4 | import Skills from "@/src/components/Skills";
+> 5 | import About from "@/src/components/About";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Projects from "@/src/components/Projects";
+  7 | import Footer from "@/src/components/Footer";
+  8 |
+
+Import map: aliased to relative './src/components/About' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:25:06.367] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/src/components/About'
+  3 | import Navbar from "@/src/components/Navbar";
+  4 | import Skills from "@/src/components/Skills";
+> 5 | import About from "@/src/components/About";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Projects from "@/src/components/Projects";
+  7 | import Footer from "@/src/components/Footer";
+  8 |
+
+Import map: aliased to relative './src/components/About' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:25:06.368] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/src/components/About'
+  3 | import Navbar from "@/src/components/Navbar";
+  4 | import Skills from "@/src/components/Skills";
+> 5 | import About from "@/src/components/About";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Projects from "@/src/components/Projects";
+  7 | import Footer from "@/src/components/Footer";
+  8 |
+
+Import map: aliased to relative './src/components/About' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:25:06.368] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/src/components/About'
+  3 | import Navbar from "@/src/components/Navbar";
+  4 | import Skills from "@/src/components/Skills";
+> 5 | import About from "@/src/components/About";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Projects from "@/src/components/Projects";
+  7 | import Footer from "@/src/components/Footer";
+  8 |
+
+Import map: aliased to relative './src/components/About' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:25:06.370] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/src/components/About'
+  3 | import Navbar from "@/src/components/Navbar";
+  4 | import Skills from "@/src/components/Skills";
+> 5 | import About from "@/src/components/About";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Projects from "@/src/components/Projects";
+  7 | import Footer from "@/src/components/Footer";
+  8 |
+
+Import map: aliased to relative './src/components/About' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:25:06.372] Server  ERROR   ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/src/components/About'
+  3 | import Navbar from "@/src/components/Navbar";
+  4 | import Skills from "@/src/components/Skills";
+> 5 | import About from "@/src/components/About";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Projects from "@/src/components/Projects";
+  7 | import Footer from "@/src/components/Footer";
+  8 |
+
+Import map: aliased to relative './src/components/About' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:25:06.389] Server  LOG     ✓ Compiled in 312ms
+[02:25:07.310] Browser ERROR   ./app/page.tsx:5:1
+Module not found: Can't resolve '@/src/components/About'
+  3 | import Navbar from "@/src/components/Navbar";
+  4 | import Skills from "@/src/components/Skills";
+> 5 | import About from "@/src/components/About";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Projects from "@/src/components/Projects";
+  7 | import Footer from "@/src/components/Footer";
+  8 |
+
+Import map: aliased to relative './src/components/About' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[02:25:23.057] Server  LOG     ✓ Compiled in 330ms
+[02:25:50.839] Server  LOG     ✓ Compiled in 124ms
+[02:28:55.043] Server  LOG     ✓ Compiled in 207ms
+[02:29:58.947] Server  LOG     ✓ Compiled in 383ms
+[02:30:14.435] Server  LOG     ✓ Compiled in 219ms
+[02:30:27.704] Server  LOG     ✓ Compiled in 307ms
+[02:32:45.687] Server  LOG     ✓ Compiled in 141ms
+[02:34:49.243] Server  LOG     ✓ Compiled in 299ms
+[02:35:04.099] Server  LOG     ✓ Compiled in 120ms
+[02:40:38.306] Server  LOG     ✓ Compiled in 263ms
+[02:42:26.187] Server  LOG     ✓ Compiled in 194ms

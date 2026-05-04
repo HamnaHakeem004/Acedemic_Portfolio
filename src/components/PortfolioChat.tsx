@@ -58,12 +58,12 @@ export default function PortfolioChat() {
   };
 
   return (
-    <div className="fixed bottom-6 right-6 z-[60]">
+    <div className="fixed bottom-6 right-6 z-60">
       {/* Floating Button */}
       <motion.button
         whileTap={{ scale: 0.95 }}
         onClick={() => setOpen((v) => !v)}
-        className="rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 px-5 py-3 text-white font-semibold shadow-lg hover:brightness-110"
+        className="rounded-2xl bg-teal-600 px-5 py-3 text-white font-semibold shadow-lg hover:bg-teal-700"
       >
         {open ? "Close" : "Ask AI"}
       </motion.button>
@@ -76,16 +76,16 @@ export default function PortfolioChat() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 16, scale: 0.98 }}
             transition={{ duration: 0.2 }}
-            className="mt-3 w-[340px] sm:w-[380px] rounded-2xl border border-slate-800 bg-black/70 backdrop-blur shadow-2xl overflow-hidden"
+            className="mt-3 w-85 sm:w-95 rounded-2xl border border-white/55 bg-white/60 backdrop-blur-2xl shadow-2xl overflow-hidden"
           >
-            <div className="px-4 py-3 border-b border-slate-800">
-              <div className="text-white font-semibold">Portfolio Assistant</div>
-              <div className="text-slate-400 text-xs">
+            <div className="px-4 py-3 border-b border-white/40">
+              <div className="text-slate-900 font-semibold">Portfolio Assistant</div>
+              <div className="text-slate-500 text-xs">
                 Ask about projects, skills, internships, etc.
               </div>
             </div>
 
-            <div className="max-h-[360px] overflow-y-auto px-4 py-3 space-y-3">
+            <div className="max-h-90 overflow-y-auto px-4 py-3 space-y-3">
               {messages.map((m, i) => (
                 <div
                   key={i}
@@ -95,8 +95,8 @@ export default function PortfolioChat() {
                     className={[
                       "max-w-[85%] rounded-2xl px-4 py-2 text-sm leading-relaxed",
                       m.role === "user"
-                        ? "bg-blue-600/20 text-blue-100 border border-blue-600/30"
-                        : "bg-white/5 text-slate-200 border border-white/10",
+                        ? "bg-teal-50 text-teal-700 border border-teal-200"
+                        : "bg-slate-50 text-slate-700 border border-slate-200",
                     ].join(" ")}
                   >
                     {m.content}
@@ -110,7 +110,7 @@ export default function PortfolioChat() {
               <div ref={bottomRef} />
             </div>
 
-            <div className="p-3 border-t border-slate-800 flex gap-2">
+            <div className="p-3 border-t border-white/40 flex gap-2">
               <input
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
@@ -118,12 +118,12 @@ export default function PortfolioChat() {
                   if (e.key === "Enter") send();
                 }}
                 placeholder="Ask: What projects did you build?"
-                className="flex-1 rounded-xl bg-black/40 border border-slate-800 px-3 py-2 text-slate-200 placeholder:text-slate-500 outline-none focus:border-blue-600"
+                className="flex-1 rounded-xl bg-white border border-slate-200 px-3 py-2 text-slate-700 placeholder:text-slate-400 outline-none focus:border-teal-600 shadow-sm"
               />
               <button
                 onClick={send}
                 disabled={loading}
-                className="rounded-xl bg-blue-600/20 border border-blue-600/40 px-4 py-2 text-blue-100 hover:bg-blue-600/25 disabled:opacity-60"
+                className="rounded-xl bg-teal-600 border border-teal-600 px-4 py-2 text-white hover:bg-teal-700 disabled:opacity-60"
               >
                 Send
               </button>

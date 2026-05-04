@@ -64,8 +64,8 @@ export default function Certificates() {
       const matchesQuery = !q
         ? true
         : `${c.title} ${c.issuer} ${c.skillImproved} ${c.proof} ${c.type}`
-            .toLowerCase()
-            .includes(q);
+          .toLowerCase()
+          .includes(q);
       return matchesType && matchesQuery;
     });
   }, [certs, query, activeType]);
@@ -73,12 +73,12 @@ export default function Certificates() {
   return (
     <section
       id="certificates"
-      className="relative overflow-hidden bg-black py-24 px-6"
+      className="relative overflow-hidden bg-slate-50 py-24 px-6"
     >
       {/* glow */}
       <div aria-hidden className="pointer-events-none absolute inset-0">
-        <div className="absolute -top-24 -left-24 h-72 w-72 rounded-full bg-blue-600/15 blur-3xl" />
-        <div className="absolute -bottom-28 -right-28 h-80 w-80 rounded-full bg-emerald-500/10 blur-3xl" />
+        <div className="absolute -top-24 -left-24 h-72 w-72 rounded-full bg-blue-200/30 blur-3xl" />
+        <div className="absolute -bottom-28 -right-28 h-80 w-80 rounded-full bg-emerald-200/20 blur-3xl" />
       </div>
 
       <div className="relative max-w-6xl mx-auto">
@@ -90,18 +90,18 @@ export default function Certificates() {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <div className="inline-flex items-center gap-2 rounded-full border border-blue-600/30 bg-blue-600/10 px-4 py-2 text-blue-200">
+          <div className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-blue-700">
             <FiAward />
             Certifications
           </div>
 
-          <h2 className="mt-5 text-4xl md:text-5xl font-extrabold text-white">
-            Certificates <span className="text-blue-500">& Evidence</span>
+          <h2 className="mt-5 text-4xl md:text-5xl font-extrabold text-slate-900">
+            Certificates <span className="text-blue-700">& Evidence</span>
           </h2>
 
-          <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-blue-500" />
+          <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-blue-600" />
 
-          <p className="mt-6 text-white/70 max-w-3xl mx-auto leading-relaxed">
+          <p className="mt-6 text-slate-600 max-w-3xl mx-auto leading-relaxed">
             Certificates obtained within the last year (technical/soft skills),
             showing evidence of continuous learning and skill improvement.
           </p>
@@ -116,19 +116,19 @@ export default function Certificates() {
           className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between"
         >
           {/* search */}
-          <div className="w-full md:w-[420px]">
+          <div className="w-full md:w-105">
             <div className="relative">
-              <FiSearch className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500" />
+              <FiSearch className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" />
               <input
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Search certificates (e.g., Python, Microsoft, Power Platform)..."
-                className="w-full rounded-xl bg-slate-900/40 border border-slate-800 pl-11 pr-10 py-3 text-slate-200 placeholder:text-slate-500 outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 transition"
+                className="w-full rounded-xl bg-white border border-slate-200 pl-11 pr-10 py-3 text-slate-700 placeholder:text-slate-400 outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-600/10 transition shadow-sm"
               />
               {query ? (
                 <button
                   onClick={() => setQuery("")}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-200 transition"
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 transition"
                   aria-label="Clear search"
                   type="button"
                 >
@@ -150,8 +150,8 @@ export default function Certificates() {
                   className={[
                     "rounded-full px-4 py-2 text-sm border transition",
                     active
-                      ? "bg-blue-600/15 border-blue-600 text-blue-300"
-                      : "bg-slate-900/40 border-slate-800 text-slate-300 hover:border-blue-600 hover:text-blue-200",
+                      ? "bg-blue-50 border-blue-600 text-blue-700"
+                      : "bg-white border-slate-200 text-slate-600 hover:border-blue-600 hover:text-blue-700",
                   ].join(" ")}
                 >
                   {t}
@@ -176,18 +176,18 @@ export default function Certificates() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.45, delay: Math.min(idx * 0.04, 0.2) }}
                 whileHover={{ y: -6 }}
-                className="group text-left rounded-2xl border border-slate-800 bg-slate-900/40 overflow-hidden transition hover:border-blue-600"
+                className="group text-left rounded-2xl border border-white/55 bg-white/55 overflow-hidden transition hover:border-blue-600 shadow-lg backdrop-blur-2xl"
               >
                 <div className="relative h-44 w-full">
                   {/* Thumbnail */}
                   {pdf ? (
-                    <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-slate-950 to-slate-900">
+                    <div className="absolute inset-0 flex items-center justify-center bg-linear-to-br from-white/70 to-slate-100/80">
                       <div className="flex flex-col items-center gap-2">
-                        <div className="h-12 w-12 rounded-2xl border border-blue-600/30 bg-blue-600/10 flex items-center justify-center text-blue-200">
+                        <div className="h-12 w-12 rounded-2xl border border-blue-200 bg-blue-50 flex items-center justify-center text-blue-700">
                           <FiFileText size={22} />
                         </div>
-                        <div className="text-white font-semibold">PDF</div>
-                        <div className="text-white/60 text-xs px-4 text-center">
+                        <div className="text-slate-900 font-semibold">PDF</div>
+                        <div className="text-slate-500 text-xs px-4 text-center">
                           Click to preview
                         </div>
                       </div>
@@ -201,12 +201,12 @@ export default function Certificates() {
                     />
                   )}
 
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                  <div className="absolute inset-0 bg-linear-to-t from-white/80 via-white/20 to-transparent" />
                   <div className="absolute bottom-3 left-3 right-3">
-                    <div className="text-white font-semibold leading-tight">
+                    <div className="text-slate-900 font-semibold leading-tight">
                       {c.title}
                     </div>
-                    <div className="text-white/70 text-xs mt-1">
+                    <div className="text-slate-600 text-xs mt-1">
                       {c.issuer} • {c.date}
                     </div>
                   </div>
@@ -214,22 +214,22 @@ export default function Certificates() {
 
                 <div className="p-5">
                   <div className="flex items-center justify-between gap-3">
-                    <span className="text-xs rounded-full px-3 py-1 border border-blue-600/25 bg-blue-600/10 text-blue-300">
+                    <span className="text-xs rounded-full px-3 py-1 border border-blue-200 bg-blue-50 text-blue-700">
                       {c.type}
                     </span>
-                    <span className="text-xs text-slate-400 group-hover:text-blue-300 transition">
+                    <span className="text-xs text-slate-400 group-hover:text-blue-700 transition">
                       Click to view
                     </span>
                   </div>
 
-                  <p className="mt-3 text-sm text-slate-300 leading-relaxed">
-                    <span className="text-slate-200 font-medium">
+                  <p className="mt-3 text-sm text-slate-600 leading-relaxed">
+                    <span className="text-slate-900 font-medium">
                       Skill improved:
                     </span>{" "}
                     {c.skillImproved}
                   </p>
 
-                  <p className="mt-2 text-xs text-slate-400 line-clamp-2">
+                  <p className="mt-2 text-xs text-slate-500 line-clamp-2">
                     {c.proof}
                   </p>
                 </div>
@@ -240,7 +240,7 @@ export default function Certificates() {
 
         {/* Empty state */}
         {filtered.length === 0 ? (
-          <div className="mt-10 rounded-2xl border border-slate-800 bg-slate-900/40 p-8 text-slate-300">
+          <div className="mt-10 rounded-2xl border border-slate-200 bg-white p-8 text-slate-600 shadow-sm">
             No certificates match your search. Try another keyword.
           </div>
         ) : null}
@@ -250,7 +250,7 @@ export default function Certificates() {
       <AnimatePresence>
         {open ? (
           <motion.div
-            className="fixed inset-0 z-[9999] flex items-center justify-center px-5 py-10 bg-black/70 backdrop-blur"
+            className="fixed inset-0 z-9999 flex items-center justify-center px-5 py-10 bg-slate-900/20 backdrop-blur-2xl"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -261,13 +261,13 @@ export default function Certificates() {
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 10, scale: 0.98 }}
               transition={{ duration: 0.25 }}
-              className="w-full max-w-5xl overflow-hidden rounded-2xl border border-slate-800 bg-slate-950"
+              className="w-full max-w-5xl overflow-hidden rounded-2xl border border-white/55 bg-white/60 shadow-2xl backdrop-blur-2xl"
               onClick={(e) => e.stopPropagation()}
             >
-              <div className="flex items-center justify-between px-5 py-4 border-b border-slate-800">
+              <div className="flex items-center justify-between px-5 py-4 border-b border-slate-200">
                 <div>
-                  <div className="text-white font-semibold">{open.title}</div>
-                  <div className="text-slate-400 text-sm">
+                  <div className="text-slate-900 font-semibold">{open.title}</div>
+                  <div className="text-slate-500 text-sm">
                     {open.issuer} • {open.date}
                   </div>
                 </div>
@@ -277,7 +277,7 @@ export default function Certificates() {
                     href={open.file}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center gap-2 rounded-xl border border-slate-800 bg-black/30 px-3 py-2 text-slate-200 hover:border-blue-600 hover:text-blue-200 transition"
+                    className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-3 py-2 text-slate-700 hover:border-blue-600 hover:text-blue-700 transition shadow-sm"
                   >
                     <FiExternalLink /> Open
                   </a>
@@ -285,7 +285,7 @@ export default function Certificates() {
                   <a
                     href={open.file}
                     download
-                    className="inline-flex items-center gap-2 rounded-xl border border-slate-800 bg-black/30 px-3 py-2 text-slate-200 hover:border-blue-600 hover:text-blue-200 transition"
+                    className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-3 py-2 text-slate-700 hover:border-blue-600 hover:text-blue-700 transition shadow-sm"
                   >
                     <FiDownload /> Download
                   </a>
@@ -295,7 +295,7 @@ export default function Certificates() {
                       href={open.link}
                       target="_blank"
                       rel="noreferrer"
-                      className="hidden sm:inline-flex items-center gap-2 rounded-xl border border-slate-800 bg-black/30 px-3 py-2 text-slate-200 hover:border-blue-600 hover:text-blue-200 transition"
+                      className="hidden sm:inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-3 py-2 text-slate-700 hover:border-blue-600 hover:text-blue-700 transition shadow-sm"
                     >
                       <FiExternalLink /> Verify
                     </a>
@@ -304,7 +304,7 @@ export default function Certificates() {
                   <button
                     type="button"
                     onClick={() => setOpen(null)}
-                    className="inline-flex items-center justify-center rounded-xl border border-slate-800 bg-black/30 px-3 py-2 text-slate-200 hover:border-blue-600 transition"
+                    className="inline-flex items-center justify-center rounded-xl border border-slate-200 bg-white px-3 py-2 text-slate-700 hover:border-blue-600 transition shadow-sm"
                     aria-label="Close"
                   >
                     <FiX />
@@ -314,7 +314,7 @@ export default function Certificates() {
 
               <div className="grid md:grid-cols-2 gap-0">
                 {/* LEFT: Preview */}
-                <div className="bg-black min-h-[360px] md:min-h-[520px]">
+                <div className="bg-white/40 min-h-90 md:min-h-130">
                   {isPdf(open.file) ? (
                     <iframe
                       src={open.file}
@@ -322,7 +322,7 @@ export default function Certificates() {
                       title={`${open.title} certificate preview`}
                     />
                   ) : (
-                    <div className="relative w-full h-full min-h-[360px] md:min-h-[520px]">
+                    <div className="relative w-full h-full min-h-90 md:min-h-130">
                       <Image
                         src={open.file}
                         alt={`${open.title} certificate preview`}
@@ -339,22 +339,22 @@ export default function Certificates() {
                     <span className="text-xs rounded-full px-3 py-1 border border-blue-600/25 bg-blue-600/10 text-blue-300">
                       {open.type}
                     </span>
-                    <span className="text-xs rounded-full px-3 py-1 border border-slate-800 bg-slate-900/40 text-slate-300">
+                    <span className="text-xs rounded-full px-3 py-1 border border-slate-200 bg-slate-50 text-slate-600">
                       {open.skillImproved}
                     </span>
-                    <span className="text-xs rounded-full px-3 py-1 border border-slate-800 bg-slate-900/40 text-slate-300">
+                    <span className="text-xs rounded-full px-3 py-1 border border-slate-200 bg-slate-50 text-slate-600">
                       {isPdf(open.file) ? "PDF" : "Image"}
                     </span>
                   </div>
 
-                  <h4 className="mt-4 text-white font-semibold">
+                  <h4 className="mt-4 text-slate-900 font-semibold">
                     Evidence of skill improvement
                   </h4>
-                  <p className="mt-2 text-slate-300 leading-relaxed">
+                  <p className="mt-2 text-slate-600 leading-relaxed">
                     {open.proof}
                   </p>
 
-                
+
                 </div>
               </div>
             </motion.div>

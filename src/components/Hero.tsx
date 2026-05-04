@@ -41,17 +41,17 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-screen items-center overflow-hidden bg-black pt-36"
+      className="relative flex min-h-screen items-center overflow-hidden bg-linear-to-b from-[#f8fbff] via-[#eff6ff] to-[#eaf3ff] pt-36"
     >
       <motion.div
         aria-hidden
-        className="pointer-events-none absolute -top-24 -left-24 h-72 w-72 rounded-full bg-gradient-to-tr from-purple-500/40 via-pink-500/30 to-blue-500/35 blur-3xl"
+        className="pointer-events-none absolute -top-24 -left-24 h-72 w-72 rounded-full bg-linear-to-tr from-emerald-200/60 via-cyan-200/40 to-teal-200/50 blur-3xl"
         animate={{ x: [0, 30, 0], y: [0, 18, 0] }}
         transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
       />
       <motion.div
         aria-hidden
-        className="pointer-events-none absolute -bottom-28 -right-28 h-80 w-80 rounded-full bg-gradient-to-tr from-blue-500/35 via-cyan-500/25 to-emerald-500/30 blur-3xl"
+        className="pointer-events-none absolute -bottom-28 -right-28 h-80 w-80 rounded-full bg-linear-to-tr from-cyan-200/50 via-emerald-200/35 to-teal-200/40 blur-3xl"
         animate={{ x: [0, -26, 0], y: [0, -16, 0] }}
         transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
       />
@@ -63,28 +63,23 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-center md:text-left"
         >
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-blue-500/25 bg-blue-600/10 px-4 py-2 text-sm text-blue-200">
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/50 bg-white/45 px-4 py-2 text-sm text-teal-700 backdrop-blur-xl shadow-sm">
             <FiBookOpen />
             BSc (Hons) Software Engineering Undergraduate
           </div>
 
-          <h1 className="mb-6 text-5xl font-bold text-white md:text-6xl">
+          <h1 className="mb-6 text-5xl font-bold text-slate-900 md:text-6xl">
             {" "}
-            <span className="text-blue-500">Hamna Hakeem</span>
+            <span className="text-teal-700">Hamna Hakeem</span>
           </h1>
 
-          <p className="mb-8 max-w-2xl text-lg text-gray-400 md:text-xl">
+          <p className="mb-8 max-w-2xl text-lg text-slate-600 md:text-xl">
             A focused record of my academic growth, applied software engineering
             projects, reflective learning, certifications, and career planning.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 md:justify-start">
-            <motion.a
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.97 }}
-              href="#reflective"
-              className="rounded-lg bg-blue-600 px-6 py-3 text-white transition hover:bg-blue-700"
-            >
+            <motion.a whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }} href="#reflective" className="rounded-lg border border-white/50 bg-white/50 px-6 py-3 text-slate-800 backdrop-blur-xl transition hover:bg-white/70 shadow-sm">
               Explore Journal
             </motion.a>
 
@@ -92,7 +87,7 @@ export default function Hero() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.97 }}
               href="#certificates"
-              className="rounded-lg border border-gray-500 px-6 py-3 text-white transition hover:border-blue-500 hover:text-blue-400"
+              className="rounded-lg border border-white/50 bg-white/35 px-6 py-3 text-slate-700 backdrop-blur-xl transition hover:border-teal-300 hover:text-teal-700 shadow-sm"
             >
               View Certificates
             </motion.a>
@@ -118,13 +113,13 @@ export default function Hero() {
             ].map(({ icon: Icon, title, detail }) => (
               <div
                 key={title}
-                className="rounded-2xl border border-white/10 bg-white/5 p-4 text-left backdrop-blur"
+                className="rounded-2xl border border-white/50 bg-white/45 p-4 text-left shadow-lg backdrop-blur-xl"
               >
-                <div className="mb-3 inline-flex h-11 w-11 items-center justify-center rounded-xl border border-blue-500/20 bg-blue-600/10 text-blue-200">
+                <div className="mb-3 inline-flex h-11 w-11 items-center justify-center rounded-xl border border-white/60 bg-white/55 text-teal-600 backdrop-blur-xl">
                   <Icon />
                 </div>
-                <div className="font-semibold text-white">{title}</div>
-                <p className="mt-2 text-sm leading-relaxed text-white/65">{detail}</p>
+                <div className="font-semibold text-slate-900">{title}</div>
+                <p className="mt-2 text-sm leading-relaxed text-slate-600">{detail}</p>
               </div>
             ))}
           </div>
@@ -141,7 +136,7 @@ export default function Hero() {
           >
             <motion.div
               aria-hidden
-              className="absolute -inset-8 rounded-full bg-gradient-to-tr from-purple-500 via-pink-500 to-blue-500 blur-3xl opacity-30"
+              className="absolute -inset-8 rounded-full bg-linear-to-tr from-emerald-200 via-cyan-200 to-teal-200 blur-3xl opacity-50"
               animate={{ opacity: [0.22, 0.38, 0.22] }}
               transition={{ duration: 3.8, repeat: Infinity, ease: "easeInOut" }}
               style={{ transform: "translateZ(-40px)" }}
@@ -149,7 +144,7 @@ export default function Hero() {
 
             <div
               aria-hidden
-              className="absolute -inset-2 rounded-full border border-white/10"
+              className="absolute -inset-2 rounded-full border border-slate-200"
               style={{ transform: "translateZ(-10px)" }}
             />
 
@@ -170,7 +165,7 @@ export default function Hero() {
             ))}
 
             <motion.div
-              className="relative h-72 w-72 overflow-hidden rounded-full border-4 border-white/80 shadow-2xl md:h-80 md:w-80"
+              className="relative h-72 w-72 overflow-hidden rounded-full border-4 border-white/60 shadow-[0_20px_60px_rgba(37,99,235,0.18)] md:h-80 md:w-80 backdrop-blur-xl"
               style={{ transform: "translateZ(40px)" }}
               whileTap={{ scale: 0.98 }}
             >
@@ -184,7 +179,7 @@ export default function Hero() {
 
               <div
                 aria-hidden
-                className="absolute inset-0 bg-gradient-to-tr from-white/10 via-transparent to-white/10"
+                className="absolute inset-0 bg-linear-to-tr from-white/35 via-transparent to-white/25"
               />
             </motion.div>
 

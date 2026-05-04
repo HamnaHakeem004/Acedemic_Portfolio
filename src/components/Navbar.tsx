@@ -7,7 +7,7 @@ import Logo from "./Logo";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
-  const [dark, setDark] = useState(true);
+  const [dark, setDark] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 24);
@@ -37,11 +37,10 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "border-b border-white/10 bg-black/75 shadow-lg backdrop-blur"
-          : "bg-transparent"
-      }`}
+      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled
+        ? "border-b border-white/50 bg-white/55 shadow-[0_8px_30px_rgba(15,23,42,0.08)] backdrop-blur-2xl"
+        : "bg-transparent"
+        }`}
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="flex items-center justify-between gap-4 py-4">
@@ -49,12 +48,12 @@ export default function Navbar() {
             <Logo size={44} withText />
           </a>
 
-          <div className="hidden lg:flex items-center gap-6 text-sm text-slate-300">
+          <div className="hidden lg:flex items-center gap-6 text-sm text-slate-600">
             {links.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
-                className="transition hover:text-blue-400"
+                className="transition hover:text-teal-600"
               >
                 {link.label}
               </a>
@@ -62,14 +61,14 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center gap-3">
-            <div className="hidden md:inline-flex items-center gap-2 rounded-full border border-blue-500/25 bg-blue-600/10 px-3 py-2 text-sm text-blue-200">
+            <div className="hidden md:inline-flex items-center gap-2 rounded-full border border-white/50 bg-white/45 px-3 py-2 text-sm text-teal-700 backdrop-blur-xl shadow-sm">
               <FiBookOpen />
               Academic Portfolio
             </div>
 
             <button
               onClick={() => setDark(!dark)}
-              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/5 text-slate-200 transition hover:border-blue-500/50 hover:text-blue-300"
+              className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/50 bg-white/45 text-slate-700 transition hover:border-teal-300 hover:text-teal-600 backdrop-blur-xl shadow-sm"
               aria-label="Toggle dark mode"
               title="Toggle dark mode"
               type="button"
@@ -85,7 +84,7 @@ export default function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
-                className="rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm whitespace-nowrap text-slate-300 transition hover:border-blue-500/40 hover:text-blue-300"
+                className="rounded-full border border-white/50 bg-white/45 px-3 py-2 text-sm whitespace-nowrap text-slate-600 transition hover:border-teal-300 hover:text-teal-600 backdrop-blur-xl shadow-sm"
               >
                 {link.label}
               </a>

@@ -49,9 +49,9 @@ const projects: Project[] = [
     tech: ["Java", "Android Studio", "Firebase"],
     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
     highlights: [
-    "Developed a mobile application for transport management using Java and Android Studio",
-    "Implemented real-time vehicle tracking and route optimization features",
-    "Integrated Firebase for user authentication and data storage",
+      "Developed a mobile application for transport management using Java and Android Studio",
+      "Implemented real-time vehicle tracking and route optimization features",
+      "Integrated Firebase for user authentication and data storage",
     ],
   },
   {
@@ -63,7 +63,7 @@ const projects: Project[] = [
     highlights: [
       "Developed a computer vision-based application for analyzing and optimizing transportation routes",
       "Utilized OpenCV and NumPy for image processing and data analysis",
-      "Created interactive visualizations to display route efficiency and traffic patterns",  
+      "Created interactive visualizations to display route efficiency and traffic patterns",
     ],
   },
 ];
@@ -101,7 +101,7 @@ export default function Projects() {
   const featured = filtered[0];
 
   return (
-    <section id="projects" className="bg-black py-20 px-6">
+    <section id="projects" className="bg-transparent py-20 px-6">
       <div className="max-w-6xl mx-auto">
         {/* Heading + Controls */}
         {/* Title (Get In Touch style) + Search */}
@@ -113,11 +113,11 @@ export default function Projects() {
             viewport={{ once: true }}
             className="text-center"
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-white">
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-900">
               Academic Projects
             </h2>
 
-            <p className="mt-3 text-slate-400 text-lg">
+            <p className="mt-3 text-slate-600 text-lg">
               Coursework-inspired builds and self-directed project work used to
               strengthen practical software engineering skills
             </p>
@@ -127,7 +127,7 @@ export default function Projects() {
               whileInView={{ width: 80 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="h-[3px] bg-blue-600 mx-auto mt-5 rounded-full"
+              className="h-0.75 bg-teal-600 mx-auto mt-5 rounded-full"
             />
           </motion.div>
 
@@ -137,20 +137,20 @@ export default function Projects() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="mt-10 w-full md:w-[420px] mx-auto"
+            className="mt-10 w-full md:w-105 mx-auto"
           >
             <div className="relative">
-              <FiSearch className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500" />
+              <FiSearch className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400" />
               <input
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Search academic work (e.g., Docker, React, Python)..."
-                className="w-full rounded-xl bg-slate-900/40 border border-slate-800 pl-11 pr-10 py-3 text-slate-200 placeholder:text-slate-500 outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 transition"
+                className="w-full rounded-xl bg-white border border-slate-200 pl-11 pr-10 py-3 text-slate-700 placeholder:text-slate-400 outline-none focus:border-teal-600 focus:ring-2 focus:ring-teal-600/10 transition shadow-sm"
               />
               {query ? (
                 <button
                   onClick={() => setQuery("")}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-200 transition"
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 transition"
                   aria-label="Clear search"
                 >
                   ✕
@@ -177,8 +177,8 @@ export default function Projects() {
                 className={[
                   "rounded-full px-4 py-2 text-sm border transition",
                   active
-                    ? "bg-blue-600/15 border-blue-600 text-blue-300"
-                    : "bg-slate-900/40 border-slate-800 text-slate-300 hover:border-blue-600 hover:text-blue-200",
+                    ? "bg-teal-50 border-teal-600 text-teal-700"
+                    : "bg-white border-slate-200 text-slate-600 hover:border-teal-600 hover:text-teal-700",
                 ].join(" ")}
               >
                 {t}
@@ -194,21 +194,21 @@ export default function Projects() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.55, delay: 0.08 }}
-            className="mt-10 relative overflow-hidden rounded-3xl border border-slate-800 bg-gradient-to-br from-slate-900/60 to-black"
+            className="mt-10 relative overflow-hidden rounded-3xl border border-white/55 bg-white/50 shadow-lg backdrop-blur-2xl"
           >
-            <div className="absolute -top-24 -right-24 h-64 w-64 rounded-full blur-3xl bg-blue-600/20" />
-            <div className="absolute -bottom-24 -left-24 h-64 w-64 rounded-full blur-3xl bg-cyan-500/10" />
+            <div className="absolute -top-24 -right-24 h-64 w-64 rounded-full blur-3xl bg-emerald-200/30" />
+            <div className="absolute -bottom-24 -left-24 h-64 w-64 rounded-full blur-3xl bg-teal-200/20" />
 
             <div className="relative p-7 md:p-10">
               <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
                 <div>
-                  <span className="inline-flex items-center rounded-full border border-blue-600/40 bg-blue-600/10 px-3 py-1 text-xs text-blue-200">
+                  <span className="inline-flex items-center rounded-full border border-teal-200 bg-teal-50 px-3 py-1 text-xs text-teal-700">
                     Featured Academic Work
                   </span>
-                  <h3 className="mt-3 text-2xl md:text-3xl font-bold text-slate-100">
+                  <h3 className="mt-3 text-2xl md:text-3xl font-bold text-slate-900">
                     {featured.title}
                   </h3>
-                  <p className="mt-3 text-slate-300 max-w-2xl leading-relaxed">
+                  <p className="mt-3 text-slate-600 max-w-2xl leading-relaxed">
                     {featured.description}
                   </p>
 
@@ -217,7 +217,7 @@ export default function Projects() {
                       {featured.highlights.map((h) => (
                         <span
                           key={h}
-                          className="text-xs px-3 py-1 rounded-full bg-slate-800/70 text-slate-200 border border-slate-700"
+                          className="text-xs px-3 py-1 rounded-full bg-teal-50 text-teal-700 border border-teal-100"
                         >
                           {h}
                         </span>
@@ -231,7 +231,7 @@ export default function Projects() {
                     <a
                       href={featured.github}
                       target="_blank"
-                      className="inline-flex items-center gap-2 rounded-xl border border-slate-700 bg-black/30 px-4 py-2 text-slate-200 hover:border-blue-600 hover:text-blue-200 transition"
+                      className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2 text-slate-700 hover:border-teal-600 hover:text-teal-700 transition shadow-sm"
                     >
                       <FaGithub /> GitHub
                     </a>
@@ -240,7 +240,7 @@ export default function Projects() {
                     <a
                       href={featured.live}
                       target="_blank"
-                      className="inline-flex items-center gap-2 rounded-xl border border-blue-600/50 bg-blue-600/10 px-4 py-2 text-blue-200 hover:bg-blue-600/15 transition"
+                      className="inline-flex items-center gap-2 rounded-xl border border-teal-200 bg-teal-50 px-4 py-2 text-teal-700 hover:bg-teal-100 transition"
                     >
                       <FiExternalLink /> Live
                     </a>
@@ -252,7 +252,7 @@ export default function Projects() {
                 {featured.tech.map((tech) => (
                   <span
                     key={tech}
-                    className="text-sm px-3 py-1 bg-blue-600/15 text-blue-300 rounded-full border border-blue-600/30"
+                    className="text-sm px-3 py-1 bg-teal-50 text-teal-700 rounded-full border border-teal-200"
                   >
                     {tech}
                   </span>
@@ -277,14 +277,14 @@ export default function Projects() {
                   exit={{ opacity: 0, y: 18 }}
                   transition={{ duration: 0.45, delay: Math.min(index * 0.05, 0.2) }}
                   whileHover={{ y: -8 }}
-                  className="group relative overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/50 p-6 transition"
+                  className="group relative overflow-hidden rounded-2xl border border-white/55 bg-white/55 p-6 shadow-lg transition backdrop-blur-2xl"
                 >
                   {/* glow */}
-                  <div className="pointer-events-none absolute -inset-1 opacity-0 group-hover:opacity-100 transition duration-500 blur-2xl bg-gradient-to-r from-blue-600/20 via-cyan-500/10 to-indigo-500/20" />
+                  <div className="pointer-events-none absolute -inset-1 opacity-0 group-hover:opacity-100 transition duration-500 blur-2xl bg-linear-to-r from-teal-600/20 via-cyan-500/10 to-emerald-500/20" />
 
                   <div className="relative">
                     <div className="flex items-start justify-between gap-3">
-                      <h3 className="text-xl font-semibold text-slate-100">
+                      <h3 className="text-xl font-semibold text-black">
                         {project.title}
                       </h3>
 
@@ -293,7 +293,7 @@ export default function Projects() {
                           <a
                             href={project.github}
                             target="_blank"
-                            className="text-slate-400 hover:text-blue-400 transition"
+                            className="text-slate-400 hover:text-blue-600 transition"
                             aria-label="GitHub"
                           >
                             <FaGithub />
@@ -303,7 +303,7 @@ export default function Projects() {
                           <a
                             href={project.live}
                             target="_blank"
-                            className="text-slate-400 hover:text-blue-400 transition"
+                            className="text-slate-400 hover:text-blue-600 transition"
                             aria-label="Live"
                           >
                             <FiExternalLink />
@@ -312,7 +312,7 @@ export default function Projects() {
                       </div>
                     </div>
 
-                    <p className="mt-3 text-slate-300 leading-relaxed">
+                    <p className="mt-3 text-slate-600 leading-relaxed">
                       {isExpanded
                         ? project.description
                         : project.description.length > 90
@@ -323,7 +323,7 @@ export default function Projects() {
                     {/* Expand button */}
                     <button
                       onClick={() => setExpanded(isExpanded ? null : project.title)}
-                      className="mt-4 text-sm text-blue-300 hover:text-blue-200 transition underline underline-offset-4"
+                      className="mt-4 text-sm text-teal-700 hover:text-teal-800 transition underline underline-offset-4"
                     >
                       {isExpanded ? "Show less" : "Read more"}
                     </button>
@@ -333,7 +333,7 @@ export default function Projects() {
                       {project.tech.map((tech, i) => (
                         <span
                           key={i}
-                          className="text-xs px-3 py-1 bg-blue-600/15 text-blue-300 rounded-full border border-blue-600/25"
+                          className="text-xs px-3 py-1 bg-blue-50 text-blue-700 rounded-full border border-blue-200"
                         >
                           {tech}
                         </span>
@@ -350,12 +350,12 @@ export default function Projects() {
                           transition={{ duration: 0.35 }}
                           className="mt-4 overflow-hidden"
                         >
-                          <div className="rounded-xl border border-slate-800 bg-black/30 p-4">
-                            <p className="text-xs text-slate-400 mb-2">Highlights</p>
+                          <div className="rounded-xl border border-white/55 bg-white/60 p-4 backdrop-blur-xl">
+                            <p className="text-xs text-slate-500 mb-2">Highlights</p>
                             <ul className="space-y-2">
                               {project.highlights.map((h) => (
-                                <li key={h} className="text-sm text-slate-200">
-                                  <span className="text-blue-400 mr-2">•</span>
+                                <li key={h} className="text-sm text-slate-700">
+                                  <span className="text-blue-600 mr-2">•</span>
                                   {h}
                                 </li>
                               ))}
@@ -373,7 +373,7 @@ export default function Projects() {
 
         {/* Empty state */}
         {filtered.length === 0 ? (
-          <div className="mt-10 rounded-2xl border border-slate-800 bg-slate-900/40 p-8 text-slate-300">
+          <div className="mt-10 rounded-2xl border border-white/55 bg-white/55 p-8 text-slate-600 shadow-lg backdrop-blur-2xl">
             No academic projects match your search or filter. Try another keyword or tool.
           </div>
         ) : null}

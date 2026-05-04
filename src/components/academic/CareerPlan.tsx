@@ -5,11 +5,11 @@ import { FiTarget, FiTrendingUp, FiClock } from "react-icons/fi";
 
 export default function CareerPlan() {
   return (
-    <section id="career-plan" className="relative bg-black py-24 px-6 overflow-hidden">
+    <section id="career-plan" className="relative bg-slate-50 py-24 px-6 overflow-hidden">
       {/* background glow */}
       <div aria-hidden className="absolute inset-0 pointer-events-none">
-        <div className="absolute -top-24 -right-24 h-72 w-72 rounded-full bg-indigo-600/15 blur-3xl" />
-        <div className="absolute -bottom-28 -left-28 h-80 w-80 rounded-full bg-blue-600/10 blur-3xl" />
+        <div className="absolute -top-24 -right-24 h-72 w-72 rounded-full bg-cyan-200/35 blur-3xl" />
+        <div className="absolute -bottom-28 -left-28 h-80 w-80 rounded-full bg-teal-200/30 blur-3xl" />
       </div>
 
       <div className="relative max-w-6xl mx-auto">
@@ -21,11 +21,11 @@ export default function CareerPlan() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-extrabold text-white">
-            Academic & Career <span className="text-blue-500">Plan</span>
+          <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900">
+            Academic & Career <span className="text-teal-700">Plan</span>
           </h2>
-          <div className="mx-auto mt-4 h-1 w-16 bg-blue-500 rounded-full" />
-          <p className="mt-6 text-white/70 max-w-3xl mx-auto leading-relaxed">
+          <div className="mx-auto mt-4 h-1 w-16 bg-teal-600 rounded-full" />
+          <p className="mt-6 text-slate-600 max-w-3xl mx-auto leading-relaxed">
             A structured roadmap that connects my academic progress with the
             technical and professional capabilities I want to build over time.
           </p>
@@ -34,13 +34,13 @@ export default function CareerPlan() {
         {/* Goals Grid */}
         <div className="grid md:grid-cols-3 gap-8">
           {/* Short Term */}
-          <div className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur p-8">
-            <div className="flex items-center gap-3 text-blue-400 mb-4">
+          <div className="rounded-2xl border border-white/55 bg-white/55 backdrop-blur-2xl p-8 shadow-lg">
+            <div className="flex items-center gap-3 text-teal-600 mb-4">
               <FiClock />
-              <h3 className="font-semibold text-lg">Short-Term (1–2 Years)</h3>
+              <h3 className="font-semibold text-lg text-slate-900">Short-Term (1–2 Years)</h3>
             </div>
 
-            <ul className="space-y-3 text-white/75">
+            <ul className="space-y-3 text-slate-600">
               <li>✔ Maintain strong academic performance</li>
               <li>✔ Complete high-quality portfolio and capstone-style projects</li>
               <li>✔ Strengthen testing and system design fundamentals</li>
@@ -50,13 +50,13 @@ export default function CareerPlan() {
           </div>
 
           {/* Mid Term */}
-          <div className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur p-8">
-            <div className="flex items-center gap-3 text-indigo-400 mb-4">
+          <div className="rounded-2xl border border-white/55 bg-white/55 backdrop-blur-2xl p-8 shadow-lg">
+            <div className="flex items-center gap-3 text-cyan-600 mb-4">
               <FiTrendingUp />
-              <h3 className="font-semibold text-lg">Mid-Term (3–5 Years)</h3>
+              <h3 className="font-semibold text-lg text-slate-900">Mid-Term (3–5 Years)</h3>
             </div>
 
-            <ul className="space-y-3 text-white/75">
+            <ul className="space-y-3 text-slate-600">
               <li>✔ Become a dependable full-stack engineer</li>
               <li>✔ Lead small technical features or academic-to-industry transitions</li>
               <li>✔ Gain stronger knowledge of scalable architecture</li>
@@ -66,13 +66,13 @@ export default function CareerPlan() {
           </div>
 
           {/* Long Term */}
-          <div className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur p-8">
-            <div className="flex items-center gap-3 text-cyan-400 mb-4">
+          <div className="rounded-2xl border border-white/55 bg-white/55 backdrop-blur-2xl p-8 shadow-lg">
+            <div className="flex items-center gap-3 text-emerald-600 mb-4">
               <FiTarget />
-              <h3 className="font-semibold text-lg">Long-Term (5+ Years)</h3>
+              <h3 className="font-semibold text-lg text-slate-900">Long-Term (5+ Years)</h3>
             </div>
 
-            <ul className="space-y-3 text-white/75">
+            <ul className="space-y-3 text-slate-600">
               <li>✔ Grow into a senior engineering role</li>
               <li>✔ Architect scalable distributed systems</li>
               <li>✔ Build impactful digital products with clear user value</li>
@@ -83,14 +83,14 @@ export default function CareerPlan() {
         </div>
 
         {/* Skill Gap Section */}
-        <div className="mt-16 rounded-2xl border border-white/10 bg-gradient-to-b from-white/10 to-white/5 backdrop-blur p-10">
-          <h3 className="text-2xl font-bold text-white mb-6">
+        <div className="mt-16 rounded-2xl border border-white/55 bg-white/55 backdrop-blur-2xl p-10 shadow-lg">
+          <h3 className="text-2xl font-bold text-slate-900 mb-6">
             Skill Gap Analysis & Action Plan
           </h3>
 
-          <div className="grid md:grid-cols-2 gap-8 text-white/75">
+          <div className="grid md:grid-cols-2 gap-8 text-slate-600">
             <div>
-              <h4 className="font-semibold text-white mb-3">
+              <h4 className="font-semibold text-slate-900 mb-3">
                 Areas to Improve
               </h4>
               <ul className="space-y-2">
@@ -102,7 +102,7 @@ export default function CareerPlan() {
             </div>
 
             <div>
-              <h4 className="font-semibold text-white mb-3">
+              <h4 className="font-semibold text-slate-900 mb-3">
                 Action Strategy
               </h4>
               <ul className="space-y-2">
@@ -114,7 +114,7 @@ export default function CareerPlan() {
             </div>
           </div>
 
-          <p className="mt-8 text-sm text-white/60 leading-relaxed">
+          <p className="mt-8 text-sm text-slate-500 leading-relaxed">
             This development plan ensures continuous growth through structured
             learning, practical application, and measurable progress tracking.
             It aligns my academic journey with real industry expectations.

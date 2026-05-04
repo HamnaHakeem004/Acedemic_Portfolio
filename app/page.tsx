@@ -14,7 +14,7 @@ import CVSection from "@/src/components/academic/CVSection";
 
 export default function Home() {
   return (
-    <main className="bg-black text-white">
+    <main className="relative bg-transparent text-slate-900">
       <Navbar />
       <Hero />
       <About />

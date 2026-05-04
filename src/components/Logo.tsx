@@ -67,9 +67,9 @@ export default function SignatureLogo({
         <defs>
           {/* Badge gradient */}
           <linearGradient id="sigBadge" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stopColor="#2563EB" />
-            <stop offset="50%" stopColor="#06B6D4" />
-            <stop offset="100%" stopColor="#4F46E5" />
+            <stop offset="0%" stopColor="#0F766E" />
+            <stop offset="50%" stopColor="#14B8A6" />
+            <stop offset="100%" stopColor="#34D399" />
           </linearGradient>
 
           {/* Stroke gradient */}
@@ -121,7 +121,7 @@ export default function SignatureLogo({
           cx="32"
           cy="32"
           r="24"
-          fill="rgba(37,99,235,0.20)"
+          fill="rgba(20,184,166,0.20)"
           filter="blur(10px)"
           initial={{ opacity: 0.15, scale: 0.92 }}
           whileHover={{ opacity: 0.42, scale: 1.12 }}
@@ -202,10 +202,10 @@ export default function SignatureLogo({
 
       {withText && (
         <div className="leading-tight">
-          <div className="text-white font-semibold text-lg tracking-tight">
-            Hamna<span className="text-blue-500">.</span>
+          <div className="text-slate-900 font-semibold text-lg tracking-tight">
+            Hamna<span className="text-teal-700">.</span>
           </div>
-          <div className="text-slate-400 text-xs">Academic Portfolio</div>
+          <div className="text-slate-500 text-xs">Academic Portfolio</div>
         </div>
       )}
     </div>
