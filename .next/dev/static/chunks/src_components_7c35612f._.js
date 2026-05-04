@@ -901,16 +901,55 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-;
-var _s = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
 function SignatureLogo({ size = 44, withText = true, className = "" }) {
-    _s();
     const s = size;
-    const [drawKey, setDrawKey] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
+    const rootVariants = {
+        rest: {
+            rotate: 0,
+            scale: 1,
+            y: 0
+        },
+        hover: {
+            rotate: -8,
+            scale: 1.08,
+            y: -2
+        }
+    };
+    const letterVariants = {
+        rest: {
+            y: 0,
+            scale: 1,
+            rotate: 0,
+            opacity: 1
+        },
+        hover: {
+            y: [
+                0,
+                -2,
+                0
+            ],
+            scale: [
+                1,
+                1.08,
+                1
+            ],
+            rotate: [
+                0,
+                -6,
+                0
+            ],
+            opacity: 1,
+            transition: {
+                duration: 0.9,
+                repeat: Infinity,
+                repeatType: "loop",
+                ease: "easeInOut"
+            }
+        }
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: `flex items-center gap-3 select-none ${className}`,
         children: [
@@ -919,16 +958,20 @@ function SignatureLogo({ size = 44, withText = true, className = "" }) {
                 height: s,
                 viewBox: "0 0 64 64",
                 role: "img",
-                "aria-label": "FH Signature Logo",
+                "aria-label": "FH Logo",
                 className: "shrink-0",
-                whileHover: {
-                    rotate: -4,
-                    scale: 1.03
-                },
+                variants: rootVariants,
+                initial: "rest",
+                whileHover: "hover",
                 whileTap: {
-                    scale: 0.98
+                    scale: 0.97,
+                    rotate: -2
                 },
-                onHoverStart: ()=>setDrawKey((k)=>k + 1),
+                transition: {
+                    type: "spring",
+                    stiffness: 320,
+                    damping: 18
+                },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
                         children: [
@@ -944,7 +987,7 @@ function SignatureLogo({ size = 44, withText = true, className = "" }) {
                                         stopColor: "#2563EB"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Logo.tsx",
-                                        lineNumber: 36,
+                                        lineNumber: 70,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
@@ -952,7 +995,7 @@ function SignatureLogo({ size = 44, withText = true, className = "" }) {
                                         stopColor: "#06B6D4"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Logo.tsx",
-                                        lineNumber: 37,
+                                        lineNumber: 71,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
@@ -960,13 +1003,13 @@ function SignatureLogo({ size = 44, withText = true, className = "" }) {
                                         stopColor: "#4F46E5"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Logo.tsx",
-                                        lineNumber: 38,
+                                        lineNumber: 72,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Logo.tsx",
-                                lineNumber: 35,
+                                lineNumber: 69,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("linearGradient", {
@@ -981,7 +1024,7 @@ function SignatureLogo({ size = 44, withText = true, className = "" }) {
                                         stopColor: "rgba(255,255,255,0.95)"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Logo.tsx",
-                                        lineNumber: 43,
+                                        lineNumber: 77,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
@@ -989,7 +1032,7 @@ function SignatureLogo({ size = 44, withText = true, className = "" }) {
                                         stopColor: "rgba(255,255,255,0.95)"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Logo.tsx",
-                                        lineNumber: 44,
+                                        lineNumber: 78,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
@@ -997,13 +1040,13 @@ function SignatureLogo({ size = 44, withText = true, className = "" }) {
                                         stopColor: "rgba(255,255,255,0.75)"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Logo.tsx",
-                                        lineNumber: 45,
+                                        lineNumber: 79,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Logo.tsx",
-                                lineNumber: 42,
+                                lineNumber: 76,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("filter", {
@@ -1018,7 +1061,7 @@ function SignatureLogo({ size = 44, withText = true, className = "" }) {
                                         result: "blur"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Logo.tsx",
-                                        lineNumber: 50,
+                                        lineNumber: 84,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("feColorMatrix", {
@@ -1028,7 +1071,7 @@ function SignatureLogo({ size = 44, withText = true, className = "" }) {
                                         result: "glow"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Logo.tsx",
-                                        lineNumber: 51,
+                                        lineNumber: 85,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("feMerge", {
@@ -1037,26 +1080,26 @@ function SignatureLogo({ size = 44, withText = true, className = "" }) {
                                                 in: "glow"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Logo.tsx",
-                                                lineNumber: 62,
+                                                lineNumber: 96,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("feMergeNode", {
                                                 in: "SourceGraphic"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Logo.tsx",
-                                                lineNumber: 63,
+                                                lineNumber: 97,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/Logo.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 95,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Logo.tsx",
-                                lineNumber: 49,
+                                lineNumber: 83,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("clipPath", {
@@ -1069,18 +1112,18 @@ function SignatureLogo({ size = 44, withText = true, className = "" }) {
                                     rx: "14"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Logo.tsx",
-                                    lineNumber: 69,
+                                    lineNumber: 103,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Logo.tsx",
-                                lineNumber: 68,
+                                lineNumber: 102,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Logo.tsx",
-                        lineNumber: 33,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
@@ -1092,7 +1135,7 @@ function SignatureLogo({ size = 44, withText = true, className = "" }) {
                         fill: "url(#sigBadge)"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Logo.tsx",
-                        lineNumber: 74,
+                        lineNumber: 108,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
@@ -1106,7 +1149,31 @@ function SignatureLogo({ size = 44, withText = true, className = "" }) {
                         strokeWidth: "1.5"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Logo.tsx",
-                        lineNumber: 75,
+                        lineNumber: 109,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].circle, {
+                        cx: "32",
+                        cy: "32",
+                        r: "24",
+                        fill: "rgba(37,99,235,0.20)",
+                        filter: "blur(10px)",
+                        initial: {
+                            opacity: 0.15,
+                            scale: 0.92
+                        },
+                        whileHover: {
+                            opacity: 0.42,
+                            scale: 1.12
+                        },
+                        transition: {
+                            type: "spring",
+                            stiffness: 220,
+                            damping: 18
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/Logo.tsx",
+                        lineNumber: 120,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("g", {
@@ -1130,78 +1197,119 @@ function SignatureLogo({ size = 44, withText = true, className = "" }) {
                             }
                         }, void 0, false, {
                             fileName: "[project]/src/components/Logo.tsx",
-                            lineNumber: 88,
+                            lineNumber: 133,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Logo.tsx",
-                        lineNumber: 87,
+                        lineNumber: 132,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("g", {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].g, {
+                        filter: "url(#sigGlow)",
+                        initial: {
+                            opacity: 0,
+                            scale: 0.92
+                        },
+                        animate: {
+                            opacity: 1,
+                            scale: 1
+                        },
+                        transition: {
+                            duration: 0.45,
+                            ease: "easeOut"
+                        },
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].path, {
-                                d: " M 16 44 L 16 22 Q 16 18 20 18 Q 23 18 24 22 L 28 34 L 32 22 Q 33 18 36 18 Q 40 18 40 22 L 40 44  M 40 30 Q 44 20 52 20 Q 56 20 56 24 Q 56 28 52 30 Q 56 32 56 36 Q 56 40 52 40 Q 44 40 40 30 ",
-                                fill: "none",
-                                stroke: "url(#sigStroke)",
-                                strokeWidth: "3.6",
-                                strokeLinecap: "round",
-                                strokeLinejoin: "round",
-                                filter: "url(#sigGlow)",
-                                initial: {
-                                    pathLength: 0,
-                                    opacity: 0.9
-                                },
-                                animate: {
-                                    pathLength: 1,
-                                    opacity: 1
-                                },
-                                transition: {
-                                    pathLength: {
-                                        duration: 1.35,
-                                        ease: "easeInOut"
-                                    },
-                                    opacity: {
-                                        duration: 0.35
-                                    }
-                                }
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].text, {
+                                x: "27",
+                                y: "34",
+                                textAnchor: "middle",
+                                dominantBaseline: "middle",
+                                fill: "url(#sigStroke)",
+                                fontSize: "24",
+                                fontWeight: "800",
+                                letterSpacing: "-1.5",
+                                fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif",
+                                variants: letterVariants,
+                                children: "F"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Logo.tsx",
-                                lineNumber: 100,
+                                lineNumber: 149,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].circle, {
-                                cx: "56",
-                                cy: "41",
-                                r: "1.8",
-                                fill: "white",
-                                initial: {
-                                    scale: 0,
-                                    opacity: 0
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].text, {
+                                x: "38",
+                                y: "34",
+                                textAnchor: "middle",
+                                dominantBaseline: "middle",
+                                fill: "url(#sigStroke)",
+                                fontSize: "24",
+                                fontWeight: "800",
+                                letterSpacing: "-1.5",
+                                fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif",
+                                variants: {
+                                    ...letterVariants,
+                                    hover: {
+                                        ...letterVariants.hover,
+                                        rotate: [
+                                            0,
+                                            6,
+                                            0
+                                        ]
+                                    }
                                 },
-                                animate: {
-                                    scale: 1,
-                                    opacity: 1
-                                },
-                                transition: {
-                                    delay: 1.15,
-                                    duration: 0.25
-                                }
+                                children: "H"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Logo.tsx",
-                                lineNumber: 134,
+                                lineNumber: 163,
                                 columnNumber: 11
                             }, this)
                         ]
-                    }, drawKey, true, {
+                    }, void 0, true, {
                         fileName: "[project]/src/components/Logo.tsx",
-                        lineNumber: 99,
+                        lineNumber: 143,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].rect, {
+                        x: "18",
+                        y: "10",
+                        width: "10",
+                        height: "44",
+                        rx: "5",
+                        fill: "rgba(255,255,255,0.22)",
+                        style: {
+                            mixBlendMode: "screen"
+                        },
+                        initial: {
+                            x: 8,
+                            opacity: 0
+                        },
+                        animate: {
+                            x: [
+                                8,
+                                46,
+                                8
+                            ],
+                            opacity: [
+                                0,
+                                0.45,
+                                0
+                            ]
+                        },
+                        transition: {
+                            duration: 3.8,
+                            repeat: Infinity,
+                            ease: "easeInOut"
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/Logo.tsx",
+                        lineNumber: 185,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Logo.tsx",
-                lineNumber: 22,
+                lineNumber: 54,
                 columnNumber: 7
             }, this),
             withText && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1216,13 +1324,13 @@ function SignatureLogo({ size = 44, withText = true, className = "" }) {
                                 children: "."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Logo.tsx",
-                                lineNumber: 149,
+                                lineNumber: 206,
                                 columnNumber: 18
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Logo.tsx",
-                        lineNumber: 148,
+                        lineNumber: 205,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1230,23 +1338,22 @@ function SignatureLogo({ size = 44, withText = true, className = "" }) {
                         children: "Academic Portfolio"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Logo.tsx",
-                        lineNumber: 151,
+                        lineNumber: 208,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Logo.tsx",
-                lineNumber: 147,
+                lineNumber: 204,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Logo.tsx",
-        lineNumber: 21,
+        lineNumber: 53,
         columnNumber: 5
     }, this);
 }
-_s(SignatureLogo, "q90TeWHbl1iZnHro7Zy7XSqAz7Q=");
 _c = SignatureLogo;
 var _c;
 __turbopack_context__.k.register(_c, "SignatureLogo");

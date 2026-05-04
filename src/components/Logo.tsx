@@ -1,7 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { useState } from "react";
+import { motion, type Variants } from "framer-motion";
 
 type SignatureLogoProps = {
   size?: number; // px
@@ -15,7 +14,40 @@ export default function SignatureLogo({
   className = "",
 }: SignatureLogoProps) {
   const s = size;
-  const [drawKey, setDrawKey] = useState(0);
+
+  const rootVariants: Variants = {
+    rest: {
+      rotate: 0,
+      scale: 1,
+      y: 0,
+    },
+    hover: {
+      rotate: -8,
+      scale: 1.08,
+      y: -2,
+    },
+  };
+
+  const letterVariants: Variants = {
+    rest: {
+      y: 0,
+      scale: 1,
+      rotate: 0,
+      opacity: 1,
+    },
+    hover: {
+      y: [0, -2, 0],
+      scale: [1, 1.08, 1],
+      rotate: [0, -6, 0],
+      opacity: 1,
+      transition: {
+        duration: 0.9,
+        repeat: Infinity,
+        repeatType: "loop" as const,
+        ease: "easeInOut" as const,
+      },
+    },
+  };
 
   return (
     <div className={`flex items-center gap-3 select-none ${className}`}>
@@ -24,11 +56,13 @@ export default function SignatureLogo({
         height={s}
         viewBox="0 0 64 64"
         role="img"
-        aria-label="FH Signature Logo"
+        aria-label="FH Logo"
         className="shrink-0"
-        whileHover={{ rotate: -4, scale: 1.03 }}
-        whileTap={{ scale: 0.98 }}
-        onHoverStart={() => setDrawKey((k) => k + 1)} // ✅ replay animation
+        variants={rootVariants}
+        initial="rest"
+        whileHover="hover"
+        whileTap={{ scale: 0.97, rotate: -2 }}
+        transition={{ type: "spring", stiffness: 320, damping: 18 }}
       >
         <defs>
           {/* Badge gradient */}
@@ -83,6 +117,17 @@ export default function SignatureLogo({
           strokeWidth="1.5"
         />
 
+        <motion.circle
+          cx="32"
+          cy="32"
+          r="24"
+          fill="rgba(37,99,235,0.20)"
+          filter="blur(10px)"
+          initial={{ opacity: 0.15, scale: 0.92 }}
+          whileHover={{ opacity: 0.42, scale: 1.12 }}
+          transition={{ type: "spring", stiffness: 220, damping: 18 }}
+        />
+
         {/* subtle animated shine */}
         <g clipPath="url(#sigClip)">
           <motion.circle
@@ -95,52 +140,64 @@ export default function SignatureLogo({
           />
         </g>
 
-        {/* ✅ key forces re-mount => redraw animation replays */}
-        <g key={drawKey}>
-          <motion.path
-            d="
-              M 16 44
-              L 16 22
-              Q 16 18 20 18
-              Q 23 18 24 22
-              L 28 34
-              L 32 22
-              Q 33 18 36 18
-              Q 40 18 40 22
-              L 40 44
-
-              M 40 30
-              Q 44 20 52 20
-              Q 56 20 56 24
-              Q 56 28 52 30
-              Q 56 32 56 36
-              Q 56 40 52 40
-              Q 44 40 40 30
-            "
-            fill="none"
-            stroke="url(#sigStroke)"
-            strokeWidth="3.6"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            filter="url(#sigGlow)"
-            initial={{ pathLength: 0, opacity: 0.9 }}
-            animate={{ pathLength: 1, opacity: 1 }}
-            transition={{
-              pathLength: { duration: 1.35, ease: "easeInOut" },
-              opacity: { duration: 0.35 },
+        <motion.g
+          filter="url(#sigGlow)"
+          initial={{ opacity: 0, scale: 0.92 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.45, ease: "easeOut" }}
+        >
+          <motion.text
+            x="27"
+            y="34"
+            textAnchor="middle"
+            dominantBaseline="middle"
+            fill="url(#sigStroke)"
+            fontSize="24"
+            fontWeight="800"
+            letterSpacing="-1.5"
+            fontFamily="Inter, ui-sans-serif, system-ui, sans-serif"
+            variants={letterVariants}
+          >
+            F
+          </motion.text>
+          <motion.text
+            x="38"
+            y="34"
+            textAnchor="middle"
+            dominantBaseline="middle"
+            fill="url(#sigStroke)"
+            fontSize="24"
+            fontWeight="800"
+            letterSpacing="-1.5"
+            fontFamily="Inter, ui-sans-serif, system-ui, sans-serif"
+            variants={{
+              ...letterVariants,
+              hover: {
+                ...letterVariants.hover,
+                rotate: [0, 6, 0],
+              },
             }}
-          />
+          >
+            H
+          </motion.text>
+        </motion.g>
 
-          <motion.circle
-            cx="56"
-            cy="41"
-            r="1.8"
-            fill="white"
-            initial={{ scale: 0, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ delay: 1.15, duration: 0.25 }}
-          />
-        </g>
+        <motion.rect
+          x="18"
+          y="10"
+          width="10"
+          height="44"
+          rx="5"
+          fill="rgba(255,255,255,0.22)"
+          style={{ mixBlendMode: "screen" }}
+          initial={{ x: 8, opacity: 0 }}
+          animate={{ x: [8, 46, 8], opacity: [0, 0.45, 0] }}
+          transition={{
+            duration: 3.8,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
+        />
       </motion.svg>
 
       {withText && (
