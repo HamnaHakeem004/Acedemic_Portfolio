@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 76, "column": 0}, "map": {"version":3,"sources":["file:///Users/malith_bandara/Documents/AcedemicPortfolio/app/api/qr/route.ts"],"sourcesContent":["import QRCode from \"qrcode\";\n\nexport async function GET(req: Request) {\n  const { searchParams } = new URL(req.url);\n  const text = searchParams.get(\"text\") || \"https://github.com/UchithChethana\";\n\n  const png = await QRCode.toBuffer(text, { type: \"png\", width: 512, margin: 2 });\n\n  return new Response(png, {\n    headers: { \"Content-Type\": \"image/png\", \"Cache-Control\": \"public, max-age=86400\" },\n  });\n}\n"],"names":[],"mappings":";;;;AAAA;;AAEO,eAAe,IAAI,GAAY;IACpC,MAAM,EAAE,YAAY,EAAE,GAAG,IAAI,IAAI,IAAI,GAAG;IACxC,MAAM,OAAO,aAAa,GAAG,CAAC,WAAW;IAEzC,MAAM,MAAM,MAAM,mJAAM,CAAC,QAAQ,CAAC,MAAM;QAAE,MAAM;QAAO,OAAO;QAAK,QAAQ;IAAE;IAE7E,OAAO,IAAI,SAAS,KAAK;QACvB,SAAS;YAAE,gBAAgB;YAAa,iBAAiB;QAAwB;IACnF;AACF"}}]
+}
