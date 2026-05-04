@@ -3392,3 +3392,39 @@ It can also happen if the client has a browser extension installed which messes 
 [00:40:01.285] Server  LOG     ✓ Compiled in 29ms
 [00:40:08.263] Server  LOG     ✓ Compiled in 45ms
 [00:40:23.219] Server  LOG     ✓ Compiled in 43ms
+[00:43:21.868] Server  LOG     ✓ Compiled in 112ms
+[00:43:22.329] Browser ERROR   ./src/components/Contact.tsx:156:24
+Parsing ecmascript source code failed
+  154 |
+  155 |                 <a
+> 156 |                   href=http://linkedin.com/in/hamnahakeembscse"
+      |                        ^^^^
+  157 |                   target="_blank"
+  158 |                   rel="noreferrer"
+  159 |                   className="rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-white/90 transition hover:bg-white/10"
+
+Expected '</', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/Contact.tsx
+    ./app/page.tsx
+[00:43:44.359] Server  LOG     ✓ Compiled in 34ms
+[00:43:49.260] Server  LOG     ✓ Compiled in 23ms
+[00:43:51.171] Server  LOG     ✓ Compiled in 24ms
+[00:43:53.369] Server  LOG     ✓ Compiled in 22ms
+[00:49:20.730] Server  LOG     ✓ Compiled in 151ms
+[00:49:28.500] Server  LOG     ✓ Compiled in 29ms
+[00:49:31.753] Server  LOG     ✓ Compiled in 36ms
+[00:49:56.447] Server  LOG     ✓ Compiled in 42ms
+[00:49:57.793] Server  LOG     ✓ Compiled in 17ms
+[00:49:59.719] Server  LOG     ✓ Compiled in 18ms
+[00:50:00.940] Server  LOG     ✓ Compiled in 37ms
+[00:50:03.389] Server  LOG     ✓ Compiled in 57ms
+[00:50:21.201] Server  LOG     ✓ Compiled in 134ms
+[00:50:26.595] Server  LOG     ✓ Compiled in 40ms
+[00:50:27.697] Server  LOG     ✓ Compiled in 39ms
+[00:50:32.813] Server  LOG     ✓ Compiled in 36ms
+[00:50:36.225] Server  LOG     ✓ Compiled in 24ms
+[00:50:40.596] Server  LOG     ✓ Compiled in 24ms
+[00:50:45.347] Server  LOG     ✓ Compiled in 30ms

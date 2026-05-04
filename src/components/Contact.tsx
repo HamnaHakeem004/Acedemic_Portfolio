@@ -18,8 +18,8 @@ export default function Contact() {
     },
     {
       label: "Phone",
-      value: "+94 77 22 84 656",
-      href: "tel:+94772284656",
+      value: "+94 76 339 7586",
+      href: "tel:+94763397586",
       icon: FiPhone,
     },
     {
@@ -30,8 +30,8 @@ export default function Contact() {
     },
     {
       label: "LinkedIn",
-      value: "linkedin.com/in/hamna-hakeem-8681aa301",
-      href: "https://www.linkedin.com/in/hamna-hakeem-8681aa301",
+      value: "linkedin.com/in/hamnahakeembscse",
+      href: "https://www.linkedin.com/in/hamnahakeembscse",
       icon: FiLinkedin,
     },
     {
@@ -153,7 +153,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/hamna-hakeem-8681aa301"
+                  href="https://www.linkedin.com/in/hamnahakeembscse"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-white/90 transition hover:bg-white/10"

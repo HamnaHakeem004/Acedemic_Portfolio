@@ -29,8 +29,8 @@ function Contact() {
         },
         {
             label: "Phone",
-            value: "+94 77 22 84 656",
-            href: "tel:+94772284656",
+            value: "+94 76 339 7586",
+            href: "tel:+94763397586",
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiPhone"]
         },
         {
@@ -41,8 +41,8 @@ function Contact() {
         },
         {
             label: "LinkedIn",
-            value: "linkedin.com/in/hamna-hakeem-8681aa301",
-            href: "https://www.linkedin.com/in/hamna-hakeem-8681aa301",
+            value: "linkedin.com/in/hamnahakeembscse",
+            href: "https://www.linkedin.com/in/hamnahakeembscse",
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiLinkedin"]
         },
         {
@@ -329,7 +329,7 @@ function Contact() {
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "https://www.linkedin.com/in/hamna-hakeem-8681aa301",
+                                                        href: "https://www.linkedin.com/in/hamnahakeembscse",
                                                         target: "_blank",
                                                         rel: "noreferrer",
                                                         className: "rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-white/90 transition hover:bg-white/10",
