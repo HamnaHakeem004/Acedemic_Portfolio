@@ -24,7 +24,7 @@ export default function SignatureLogo({
         height={s}
         viewBox="0 0 64 64"
         role="img"
-        aria-label="UC Signature Logo"
+        aria-label="FH Signature Logo"
         className="shrink-0"
         whileHover={{ rotate: -4, scale: 1.03 }}
         whileTap={{ scale: 0.98 }}

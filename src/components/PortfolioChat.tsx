@@ -13,7 +13,7 @@ export default function PortfolioChat() {
     {
       role: "assistant",
       content:
-        "Hi! Ask me anything about Malith’s projects, skills, or experience. 😊",
+        "Hi! Ask me anything about Hamna's projects, skills, or experience. 😊",
     },
   ]);
 

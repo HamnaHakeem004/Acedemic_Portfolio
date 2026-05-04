@@ -3787,3 +3787,677 @@ It can also happen if the client has a browser extension installed which messes 
 [01:02:29.406] Browser WARN    Image with src "/certificates/cer6.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [01:02:29.406] Browser WARN    Image with src "/certificates/cer7.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [01:03:06.757] Server  LOG     ✓ Compiled in 144ms
+[01:06:38.696] Server  LOG     ✓ Compiled in 149ms
+[01:06:42.799] Server  LOG     ✓ Compiled in 39ms
+[01:06:50.569] Server  LOG     ✓ Compiled in 23ms
+[01:06:54.922] Server  LOG     ✓ Compiled in 25ms
+[01:16:15.417] Server  LOG     ✓ Compiled in 146ms
+[01:16:28.378] Server  LOG     ✓ Compiled in 33ms
+[01:16:32.749] Server  LOG     ✓ Compiled in 39ms
+[01:16:34.387] Server  LOG     ✓ Compiled in 25ms
+[01:16:50.864] Server  LOG     ✓ Compiled in 67ms
+[01:16:51.307] Browser ERROR   ./src/components/Projects.tsx:25:9
+Parsing ecmascript source code failed
+  23 |     description:
+  24 |      
+> 25 |     tech: ["JavaScript", "MERN", "React", "Node.js", "MongoDB"],
+     |         ^
+  26 |     github: "https://github.com/HamnaHakeem004/floral_management.git",
+  27 |     highlights: [
+  28 |       "Designed and implemented microservices architecture",
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:17:09.471] Server  LOG     ✓ Compiled in 41ms
+[01:17:14.170] Server  LOG     ✓ Compiled in 32ms
+[01:17:45.801] Server  LOG     ✓ Compiled in 47ms
+[01:17:52.741] Server  LOG     ✓ Compiled in 44ms
+[01:17:53.306] Browser ERROR   ./src/components/Projects.tsx:37:9
+Parsing ecmascript source code failed
+  35 |     description:
+  36 |     
+> 37 |     tech: ["JavaScript", "React", "Node.js", "Docker", "MongoDB"],
+     |         ^
+  38 |     github: "https://github.com/HamnaHakeem004/online_transport.git",
+  39 |     highlights: [
+  40 |       "Data preprocessing and feature engineering",
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:18:00.307] Browser ERROR   ./src/components/Projects.tsx:37:9
+Parsing ecmascript source code failed
+  35 |     description:
+  36 |     
+> 37 |     tech: ["JavaScript", "React", "Node.js", "Docker", "MongoDB"],
+     |         ^
+  38 |     github: "https://github.com/HamnaHakeem004/online_transport.git",
+  39 |     highlights: [
+  40 |      
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:18:21.307] Browser ERROR   ./src/components/Projects.tsx:37:9
+Parsing ecmascript source code failed
+  35 |     description:
+  36 |     
+> 37 |     tech: ["JavaScript", "React", "Node.js", "Docker", "MongoDB"],
+     |         ^
+  38 |     github: "https://github.com/HamnaHakeem004/online_transport.git",
+  39 |     highlights: [
+  40 |      
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:18:24.305] Browser ERROR   ./src/components/Projects.tsx:37:9
+Parsing ecmascript source code failed
+  35 |     description:
+  36 |     
+> 37 |     tech: ["JavaScript", "React", "Node.js", "Docker", "MongoDB"],
+     |         ^
+  38 |     github: "https://github.com/HamnaHakeem004/online_transport.git",
+  39 |     highlights: [
+  40 |      
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:18:25.306] Browser ERROR   ./src/components/Projects.tsx:37:9
+Parsing ecmascript source code failed
+  35 |     description:
+  36 |     
+> 37 |     tech: ["JavaScript", "React", "Node.js", "Docker", "MongoDB"],
+     |         ^
+  38 |     github: "https://github.com/HamnaHakeem004/online_transport.git",
+  39 |     highlights: [
+  40 |      
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:18:30.305] Browser ERROR   ./src/components/Projects.tsx:37:9
+Parsing ecmascript source code failed
+  35 |     description:
+  36 |       
+> 37 |     tech: ["JavaScript", "React", "Node.js", "Docker", "MongoDB"],
+     |         ^
+  38 |     github: "https://github.com/HamnaHakeem004/online_transport.git",
+  39 |     highlights: [
+  40 |      
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:18:44.554] Server  LOG     ✓ Compiled in 52ms
+[01:18:45.543] Server  LOG     ✓ Compiled in 27ms
+[01:18:56.626] Server  LOG     ✓ Compiled in 43ms
+[01:18:57.307] Browser ERROR   ./src/components/Projects.tsx:22:12
+Parsing ecmascript source code failed
+  20 | const projects: Project[] = [
+  21 |   {
+> 22 |     title: ",
+     |            ^^
+  23 |     description:
+  24 |       "A full-stack grocery delivery application built with the MERN stack, featuring a microservices architecture for scalability and maintainability.",
+  25 |     tech: ["JavaScript", "MERN", "React", "Node.js", "MongoDB"],
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:19:02.551] Server  LOG     ✓ Compiled in 22ms
+[01:19:04.280] Server  LOG     ✓ Compiled in 21ms
+[01:19:06.637] Server  LOG     ✓ Compiled in 24ms
+[01:19:19.925] Server  LOG     ✓ Compiled in 55ms
+[01:19:20.306] Browser ERROR   ./src/components/Projects.tsx:25:11
+Parsing ecmascript source code failed
+  23 |     description:
+  24 |      
+> 25 |     github: "https://github.com/HamnaHakeem004/floral_management.git",
+     |           ^
+  26 |     highlights: [
+  27 |       "Implemented user authentication and authorization",
+  28 |       "Designed and developed RESTful APIs for product management",
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:19:26.313] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[01:19:32.216] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:19:32.235] Server  LOG     ✓ Compiled in 49ms
+[01:19:32.957] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:19:34.341] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="dark" suppressHydrationWarning={true}>
+                          <body
+                            className="antialiased"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+-                           __processed_0e95cef7-f872-4122-8093-d5ffb38d0661__="true"
+                          >
+                  ...
+
+[01:19:44.079] Server  LOG     ✓ Compiled in 19ms
+[01:19:51.324] Server  LOG     ✓ Compiled in 29ms
+[01:19:56.168] Server  LOG     ✓ Compiled in 43ms
+[01:20:00.013] Server  LOG     ✓ Compiled in 32ms
+[01:20:08.296] Server  LOG     ✓ Compiled in 31ms
+[01:20:41.165] Server  LOG     ✓ Compiled in 40ms
+[01:20:47.219] Server  LOG     ✓ Compiled in 24ms
+[01:20:48.551] Server  LOG     ✓ Compiled in 29ms
+[01:20:49.916] Server  LOG     ✓ Compiled in 23ms
+[01:20:53.004] Server  LOG     ✓ Compiled in 17ms
+[01:21:01.362] Server  LOG     ✓ Compiled in 60ms
+[01:21:02.307] Browser ERROR   ./src/components/Projects.tsx:47:9
+Parsing ecmascript source code failed
+  45 |     description:
+  46 |      
+> 47 |     tech: ["Python", "Jupyter Notebook", "OpenCV", "NumPy"],
+     |         ^
+  48 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+  49 |     highlights: [
+  50 |       "Image manipulation techniques",
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:21:05.211] Server  LOG     ✓ Compiled in 16ms
+[01:21:06.306] Browser ERROR   ./src/components/Projects.tsx:47:5
+Parsing ecmascript source code failed
+  45 |     description:
+  46 |      ""
+> 47 |     tech: ["Python", "Jupyter Notebook", "OpenCV", "NumPy"],
+     |     ^^^^
+  48 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+  49 |     highlights: [
+  50 |       "Image manipulation techniques",
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:21:30.306] Browser ERROR   ./src/components/Projects.tsx:47:5
+Parsing ecmascript source code failed
+  45 |     description:
+  46 |      ""
+> 47 |     tech: ["Python", "Jupyter Notebook", "OpenCV", "NumPy"],
+     |     ^^^^
+  48 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+  49 |     highlights: [
+  50 |       "Image manipulation techniques",
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:21:34.305] Browser ERROR   ./src/components/Projects.tsx:47:5
+Parsing ecmascript source code failed
+  45 |     description:
+  46 |      ""
+> 47 |     tech: ["Python", "Jupyter Notebook", "OpenCV", "NumPy"],
+     |     ^^^^
+  48 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+  49 |     highlights: [
+  50 |       "Image manipulation techniques",
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:21:37.305] Browser ERROR   ./src/components/Projects.tsx:47:5
+Parsing ecmascript source code failed
+  45 |     description:
+  46 |      ""
+> 47 |     tech: ["Python", "Jupyter Notebook", "OpenCV", "NumPy"],
+     |     ^^^^
+  48 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+  49 |     highlights: [
+  50 |       "Image manipulation techniques",
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:21:41.306] Browser ERROR   ./src/components/Projects.tsx:47:5
+Parsing ecmascript source code failed
+  45 |     description:
+  46 |      ""
+> 47 |     tech: ["Python", "Jupyter Notebook", "OpenCV", "NumPy"],
+     |     ^^^^
+  48 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+  49 |     highlights: [
+  50 |       "Image manipulation techniques",
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:21:47.087] Server  LOG     ✓ Compiled in 44ms
+[01:21:50.666] Server  LOG     ✓ Compiled in 28ms
+[01:21:51.305] Browser ERROR   ./src/components/Projects.tsx:47:9
+Parsing ecmascript source code failed
+  45 |     description:
+  46 |    
+> 47 |     tech: ["Python", "Jupyter Notebook", "OpenCV", "NumPy"],
+     |         ^
+  48 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+  49 |     highlights: [
+  50 |       "Image manipulation techniques",
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:21:54.306] Browser ERROR   ./src/components/Projects.tsx:47:9
+Parsing ecmascript source code failed
+  45 |     description:
+  46 |     
+> 47 |     tech: ["Python", "Jupyter Notebook", "OpenCV", "NumPy"],
+     |         ^
+  48 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+  49 |     highlights: [
+  50 |       "Image manipulation techniques",
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:22:03.305] Browser ERROR   ./src/components/Projects.tsx:47:9
+Parsing ecmascript source code failed
+  45 |     description:
+  46 |
+> 47 |     tech: ["Python", "Jupyter Notebook", "OpenCV", "NumPy"],
+     |         ^
+  48 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+  49 |     highlights: [
+  50 |     
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:22:25.306] Browser ERROR   ./src/components/Projects.tsx:47:9
+Parsing ecmascript source code failed
+  45 |     description:
+  46 |     
+> 47 |     tech: ["Python", "Jupyter Notebook", "OpenCV", "NumPy"],
+     |         ^
+  48 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+  49 |     highlights: [
+  50 |     
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:22:28.651] Server  LOG     ✓ Compiled in 30ms
+[01:22:29.306] Browser ERROR   ./src/components/Projects.tsx:47:5
+Parsing ecmascript source code failed
+  45 |     description:
+  46 |     ""
+> 47 |     tech: ["Python", "Jupyter Notebook", "OpenCV", "NumPy"],
+     |     ^^^^
+  48 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+  49 |     highlights: [
+  50 |     
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:22:36.306] Browser ERROR   ./src/components/Projects.tsx:48:5
+Parsing ecmascript source code failed
+  46 |     ""
+  47 |   
+> 48 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+     |     ^^^^^^
+  49 |     highlights: [
+  50 |     
+  51 |     ],
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:22:37.306] Browser ERROR   ./src/components/Projects.tsx:47:5
+Parsing ecmascript source code failed
+  45 |     description:
+  46 |     ""
+> 47 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+     |     ^^^^^^
+  48 |     highlights: [
+  49 |     
+  50 |     ],
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:22:39.989] Server  LOG     ✓ Compiled in 23ms
+[01:22:40.305] Browser ERROR   ./src/components/Projects.tsx:46:5
+Parsing ecmascript source code failed
+  44 |     title: "Bodima Mobile",
+  45 |     description:
+> 46 |     "
+     |     ^
+  47 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+  48 |     highlights: [
+  49 |     
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:22:43.963] Server  LOG     ✓ Compiled in 29ms
+[01:22:44.306] Browser ERROR   ./src/components/Projects.tsx:47:11
+Parsing ecmascript source code failed
+  45 |     description:
+  46 |   
+> 47 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+     |           ^
+  48 |     highlights: [
+  49 |     
+  50 |     ],
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:22:48.306] Browser ERROR   ./src/components/Projects.tsx:46:11
+Parsing ecmascript source code failed
+  44 |     title: "Bodima Mobile",
+  45 |     description:
+> 46 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+     |           ^
+  47 |     highlights: [
+  48 |     
+  49 |     ],
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:22:49.305] Browser ERROR   ./src/components/Projects.tsx:47:11
+Parsing ecmascript source code failed
+  45 |     description:
+  46 |     
+> 47 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+     |           ^
+  48 |     highlights: [
+  49 |     
+  50 |     ],
+
+Expected ',', got ':'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:23:47.131] Server  LOG     ✓ Compiled in 52ms
+[01:23:47.306] Browser ERROR   ./src/components/Projects.tsx:47:5
+Parsing ecmascript source code failed
+  45 |     description:
+  46 |     ""
+> 47 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+     |     ^^^^^^
+  48 |     highlights: [
+  49 |     
+  50 |     ],
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:24:40.305] Browser ERROR   ./src/components/Projects.tsx:47:5
+Parsing ecmascript source code failed
+  45 |     description:
+  46 |     ""
+> 47 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+     |     ^^^^^^
+  48 |     highlights: [
+  49 |     
+  50 |     ],
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:24:43.305] Browser ERROR   ./src/components/Projects.tsx:47:5
+Parsing ecmascript source code failed
+  45 |     description:
+  46 |     ""
+> 47 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+     |     ^^^^^^
+  48 |     highlights: [
+  49 |     
+  50 |     ],
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:24:44.306] Browser ERROR   ./src/components/Projects.tsx:47:5
+Parsing ecmascript source code failed
+  45 |     description:
+  46 |     ""
+> 47 |     github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
+     |     ^^^^^^
+  48 |     highlights: [
+  49 |     
+  50 |     ],
+
+Expected ',', got 'ident'
+
+Import trace:
+  Server Component:
+    ./src/components/Projects.tsx
+    ./app/page.tsx
+[01:24:51.361] Server  LOG     ✓ Compiled in 95ms
+[01:24:52.314] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[01:24:56.974] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:24:56.988] Server  LOG     ✓ Compiled in 45ms
+[01:24:57.397] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'map')
+[01:24:57.412] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[01:24:57.624] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:24:58.312] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[01:25:06.673] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:25:06.692] Server  LOG     ✓ Compiled in 40ms
+[01:25:07.089] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'map')
+[01:25:07.189] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:08.317] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[01:25:10.153] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:25:10.168] Server  LOG     ✓ Compiled in 39ms
+[01:25:10.686] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:11.305] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="dark" suppressHydrationWarning={true}>
+                          <body
+                            className="antialiased"
+-                           __processed_8c5a643e-dd89-47a9-af9e-3e04584b2483__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[01:25:15.455] Server  LOG     ✓ Compiled in 37ms
+[01:25:23.170] Server  LOG     ✓ Compiled in 28ms
+[01:25:27.898] Server  LOG     ✓ Compiled in 26ms
+[01:25:38.201] Server  LOG     ✓ Compiled in 40ms
+[01:25:42.338] Server  LOG     ✓ Compiled in 25ms
+[01:25:44.220] Server  LOG     ✓ Compiled in 22ms
+[01:25:48.658] Server  LOG     ✓ Compiled in 21ms
+[01:25:56.426] Server  LOG     ✓ Compiled in 41ms
+[01:26:06.963] Server  LOG     ✓ Compiled in 26ms
+[01:26:14.410] Server  LOG     ✓ Compiled in 50ms
+[01:26:20.228] Server  LOG     ✓ Compiled in 36ms
+[01:26:25.335] Server  LOG     ✓ Compiled in 23ms
+[01:26:26.307] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[01:26:28.332] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:26:28.348] Server  LOG     ✓ Compiled in 43ms
+[01:26:29.015] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:26:30.337] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="dark" suppressHydrationWarning={true}>
+                          <body
+                            className="antialiased"
+-                           __processed_878d1e46-4291-4229-8d42-a727da1d8fc7__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                  ...
+
+[01:26:38.852] Server  LOG     ✓ Compiled in 46ms
+[01:26:40.728] Server  LOG     ✓ Compiled in 25ms
+[01:31:22.448] Browser WARN    Image with src "/Uchith.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:31:22.573] Browser WARN    Image with src "/Uchith.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:31:26.209] Browser WARN    Image with src "/certificates/cer2.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:31:26.209] Browser WARN    Image with src "/certificates/cer3.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:31:26.209] Browser WARN    Image with src "/certificates/cer1.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:31:27.801] Browser WARN    Image with src "/certificates/cer5.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:31:27.802] Browser WARN    Image with src "/certificates/cer4.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:31:27.802] Browser WARN    Image with src "/certificates/cer6.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:31:31.853] Browser WARN    Image with src "/certificates/cer7.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

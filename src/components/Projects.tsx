@@ -19,49 +19,51 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Grocerry Delivery App",
+    title: "Floral Management System",
     description:
-      "A microservices-based grocery delivery application built with the MERN stack, focusing on scalable architecture and real-world deployment practices.",
-    tech: ["JavaScript", "MERN", "React", "Node.js", "MongoDB"],
-    github: "https://github.com/yasasArt/Grocery-Delivery-Microservices.git",
+      "A web application for managing floral inventory, orders, and customer interactions, built with a focus on user-friendly design and efficient backend architecture.",
+    tech: ["JavaScript", "React", "Node.js", "Express", "MongoDB"],
+    github: "https://github.com/HamnaHakeem004/floral_management.git",
     highlights: [
-      "Frontend and backend separation",
-      "Catalog and shopping flow structure",
-      "Applied MERN architecture practice",
+      "Implemented user authentication and authorization",
+      "Designed and developed RESTful APIs for product management",
+      "Integrated third-party payment gateway for secure transactions",
     ],
   },
   {
-    title: "Job Change Predictor",
+    title: "Online Transport Management System",
     description:
-      "A machine learning project that predicts job changes based on a dataset of employee attributes, utilizing supervised learning algorithms to analyze patterns and provide insights into career transitions.",
+      "A web-based application for managing and optimizing transport operations, including route planning, vehicle tracking, and driver management.",
     tech: ["JavaScript", "React", "Node.js", "Docker", "MongoDB"],
-    github: "https://github.com/asitha-dharmarathne/Job-Change-Prediction-Using-Supervised-Learning.git",
+    github: "https://github.com/HamnaHakeem004/online_transport.git",
     highlights: [
-      "Data preprocessing and feature engineering",
-      "Implemented multiple supervised learning algorithms",
-      "Evaluated model performance with metrics and visualizations",
+      "Designed and implemented a RESTful API for managing transport operations",
+      "Integrated real-time vehicle tracking and route optimization features",
+      "Developed a user-friendly interface for driver and fleet management",
     ],
   },
   {
-    title: "Learning Plus",
+    title: "Bodima Mobile",
     description:
-      "A Python-based applied computing project focused on image upload, transformation, and real-time experimentation with core image-processing concepts.",
-    tech: ["Python", "Jupyter Notebook", "OpenCV", "NumPy"],
-    github: "https://github.com/asitha-dharmarathne/learning-plus.git",
+      "A mobile application for managing and optimizing transport operations, including route planning, vehicle tracking, and driver management.",
+    tech: ["Java", "Android Studio", "Firebase"],
+    github: "https://github.com/HamnaHakeem004/bodima_mobile.git",
     highlights: [
-      "Image manipulation techniques",
-      "Real-time experimentation with image processing concepts",
-      "Applied computing principles in a practical project",
+    "Developed a mobile application for transport management using Java and Android Studio",
+    "Implemented real-time vehicle tracking and route optimization features",
+    "Integrated Firebase for user authentication and data storage",
     ],
   },
   {
-    title: "My Todo App",
+    title: "EasyRide",
     description:
-      "",
-    tech: ["Python", "Jupyter Notebook", "OpenCV", "NumPy"],
-    github: "https://github.com/UchithChethana/MyTodoApp.git",
+      "A computer vision-based application for analyzing and optimizing transportation routes.",
+    tech: ["Python", "OpenCV", "NumPy", "Matplotlib"],
+    github: "https://github.com/HamnaHakeem004/easyride.git",
     highlights: [
-        "A simple todo app built with Python and Flask",  
+      "Developed a computer vision-based application for analyzing and optimizing transportation routes",
+      "Utilized OpenCV and NumPy for image processing and data analysis",
+      "Created interactive visualizations to display route efficiency and traffic patterns",  
     ],
   },
 ];
