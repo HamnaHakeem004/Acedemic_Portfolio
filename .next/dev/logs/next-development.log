@@ -3371,3 +3371,24 @@ It can also happen if the client has a browser extension installed which messes 
 [00:01:26.495] Browser WARN    Image with src "/certificates/cer6.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:01:26.495] Browser WARN    Image with src "/certificates/cer7.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:01:26.495] Browser WARN    Image with src "/certificates/cer5.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:35:45.007] Server  LOG     ✓ Compiled in 43ms
+[00:35:46.798] Server  LOG     ✓ Compiled in 22ms
+[00:35:53.671] Server  LOG     ✓ Compiled in 45ms
+[00:36:29.202] Server  LOG     ✓ Compiled in 41ms
+[00:36:33.797] Server  LOG     ✓ Compiled in 40ms
+[00:36:35.508] Server  LOG     ✓ Compiled in 24ms
+[00:36:36.826] Server  LOG     ✓ Compiled in 23ms
+[00:36:48.638] Server  LOG     ✓ Compiled in 45ms
+[00:37:48.326] Server  LOG     ✓ Compiled in 37ms
+[00:37:53.061] Server  LOG     ✓ Compiled in 25ms
+[00:37:56.486] Server  LOG     ✓ Compiled in 21ms
+[00:38:48.301] Server  LOG     ✓ Compiled in 49ms
+[00:38:53.500] Server  LOG     ✓ Compiled in 47ms
+[00:39:08.113] Server  LOG     ✓ Compiled in 58ms
+[00:39:12.731] Server  LOG     ✓ Compiled in 21ms
+[00:39:54.428] Server  LOG     ✓ Compiled in 44ms
+[00:39:55.616] Server  LOG     ✓ Compiled in 20ms
+[00:39:58.241] Server  LOG     ✓ Compiled in 21ms
+[00:40:01.285] Server  LOG     ✓ Compiled in 29ms
+[00:40:08.263] Server  LOG     ✓ Compiled in 45ms
+[00:40:23.219] Server  LOG     ✓ Compiled in 43ms

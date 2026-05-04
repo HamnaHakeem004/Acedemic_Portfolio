@@ -18,13 +18,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$ico
 ;
 ;
 function Contact() {
-    const githubUrl = "https://github.com/UchithChethana";
+    const githubUrl = "https://github.com/hamnahakeem004";
     const qrCodeSrc = `/api/qr?text=${encodeURIComponent(githubUrl)}`;
     const contactItems = [
         {
             label: "Email",
-            value: "wgucgjayarathna9898@gmail.com",
-            href: "mailto:wgucgjayarathna9898@gmail.com",
+            value: "hamnahakeem004@gmail.com",
+            href: "mailto:hamnahakeem004@gmail.com",
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiMail"]
         },
         {
@@ -41,13 +41,13 @@ function Contact() {
         },
         {
             label: "LinkedIn",
-            value: "linkedin.com/in/uchith-chethana-8681aa301",
-            href: "https://www.linkedin.com/in/uchith-chethana-8681aa301",
+            value: "linkedin.com/in/hamna-hakeem-8681aa301",
+            href: "https://www.linkedin.com/in/hamna-hakeem-8681aa301",
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiLinkedin"]
         },
         {
             label: "GitHub",
-            value: "github.com/UchithChethana",
+            value: "github.com/hamnahakeem004",
             href: githubUrl,
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiGithub"]
         },
@@ -320,7 +320,7 @@ function Contact() {
                                                 className: "mt-8 flex flex-wrap gap-3",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "mailto:wgucgjayarathna9898@gmail.com?subject=Academic%20Portfolio%20Inquiry",
+                                                        href: "mailto:hamnahakeem004@gmail.com?subject=Academic%20Portfolio%20Inquiry",
                                                         className: "rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 px-5 py-3 font-semibold text-white transition hover:brightness-110",
                                                         children: "Send Email"
                                                     }, void 0, false, {
@@ -329,7 +329,7 @@ function Contact() {
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "https://www.linkedin.com/in/uchith-chethana-8681aa301",
+                                                        href: "https://www.linkedin.com/in/hamna-hakeem-8681aa301",
                                                         target: "_blank",
                                                         rel: "noreferrer",
                                                         className: "rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-white/90 transition hover:bg-white/10",
@@ -372,7 +372,7 @@ function Contact() {
                                                         "aria-label": "Open GitHub profile",
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                             src: qrCodeSrc,
-                                                            alt: "QR code for Uchith Chethana GitHub profile",
+                                                            alt: "QR code for Hamna Hakeem GitHub profile",
                                                             width: 168,
                                                             height: 168,
                                                             className: "h-40 w-40 rounded-md",
@@ -2439,7 +2439,7 @@ function About() {
     const timeline = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])({
         "About.useMemo[timeline]": ()=>[
                 {
-                    title: "BSc (Hons) In Information Technology",
+                    title: "BSc (Hons) In Software Engineering",
                     org: "SLIIT",
                     period: "2022 – Present",
                     points: [
@@ -2598,7 +2598,7 @@ function About() {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "text-white text-xl font-semibold",
-                                                        children: "Uchith Chethana"
+                                                        children: "Hamna Hakeem"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/About.tsx",
                                                         lineNumber: 143,
@@ -2606,7 +2606,7 @@ function About() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "text-white/70",
-                                                        children: "Information Technology Undergraduate"
+                                                        children: "Software Engineering Undergraduate"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/About.tsx",
                                                         lineNumber: 144,
@@ -2636,7 +2636,7 @@ function About() {
                                         className: "mt-8 flex flex-col gap-3 sm:flex-row",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "/Uchith_Chethana_CV.pdf",
+                                                href: "/Hamna_Hakeem_CV.pdf",
                                                 download: true,
                                                 className: "inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-3 font-semibold text-white shadow-lg hover:brightness-110 active:brightness-95",
                                                 children: "Download CV"

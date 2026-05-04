@@ -6,14 +6,14 @@ import { FiGithub, FiLinkedin, FiMail, FiMapPin, FiPhone } from "react-icons/fi"
 import { IoQrCodeOutline } from "react-icons/io5";
 
 export default function Contact() {
-  const githubUrl = "https://github.com/UchithChethana";
+  const githubUrl = "https://github.com/hamnahakeem004";
   const qrCodeSrc = `/api/qr?text=${encodeURIComponent(githubUrl)}`;
 
   const contactItems = [
     {
       label: "Email",
-      value: "wgucgjayarathna9898@gmail.com",
-      href: "mailto:wgucgjayarathna9898@gmail.com",
+      value: "hamnahakeem004@gmail.com",
+      href: "mailto:hamnahakeem004@gmail.com",
       icon: FiMail,
     },
     {
@@ -30,13 +30,13 @@ export default function Contact() {
     },
     {
       label: "LinkedIn",
-      value: "linkedin.com/in/uchith-chethana-8681aa301",
-      href: "https://www.linkedin.com/in/uchith-chethana-8681aa301",
+      value: "linkedin.com/in/hamna-hakeem-8681aa301",
+      href: "https://www.linkedin.com/in/hamna-hakeem-8681aa301",
       icon: FiLinkedin,
     },
     {
       label: "GitHub",
-      value: "github.com/UchithChethana",
+      value: "github.com/hamnahakeem004",
       href: githubUrl,
       icon: FiGithub,
     },
@@ -146,14 +146,14 @@ export default function Contact() {
 
               <div className="mt-8 flex flex-wrap gap-3">
                 <a
-                  href="mailto:wgucgjayarathna9898@gmail.com?subject=Academic%20Portfolio%20Inquiry"
+                  href="mailto:hamnahakeem004@gmail.com?subject=Academic%20Portfolio%20Inquiry"
                   className="rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 px-5 py-3 font-semibold text-white transition hover:brightness-110"
                 >
                   Send Email
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/uchith-chethana-8681aa301"
+                  href="https://www.linkedin.com/in/hamna-hakeem-8681aa301"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-white/90 transition hover:bg-white/10"
@@ -176,7 +176,7 @@ export default function Contact() {
                 >
                   <Image
                     src={qrCodeSrc}
-                    alt="QR code for Uchith Chethana GitHub profile"
+                    alt="QR code for Hamna Hakeem GitHub profile"
                     width={168}
                     height={168}
                     className="h-40 w-40 rounded-md"

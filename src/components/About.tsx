@@ -72,7 +72,7 @@ export default function About() {
   const timeline: TimelineItem[] = useMemo(
     () => [
       {
-        title: "BSc (Hons) In Information Technology",
+        title: "BSc (Hons) In Software Engineering",
         org: "SLIIT",
         period: "2022 – Present",
         points: [
@@ -140,8 +140,8 @@ export default function About() {
                 <Image src="/Uchith.jpeg" alt="Uchith Chethana" fill className="object-cover" />
               </div>
               <div>
-                <div className="text-white text-xl font-semibold">Uchith Chethana</div>
-                <div className="text-white/70">Information Technology Undergraduate</div>
+                <div className="text-white text-xl font-semibold">Hamna Hakeem</div>
+                <div className="text-white/70">Software Engineering Undergraduate</div>
               </div>
             </div>
 
@@ -153,7 +153,7 @@ export default function About() {
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
-                href="/Uchith_Chethana_CV.pdf"
+                href="/Hamna_Hakeem_CV.pdf"
                 download
                 className="inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-3 font-semibold text-white shadow-lg hover:brightness-110 active:brightness-95"
               >
