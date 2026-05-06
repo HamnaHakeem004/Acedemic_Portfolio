@@ -1,5 +1,5 @@
 import Contact from "@/src/components/Contact";
-import Hero from "@/src/components/Hero";
+import HeroClientWrapper from "@/src/components/HeroClientWrapper";
 import Navbar from "@/src/components/Navbar";
 import Skills from "@/src/components/Skills";
 import About from "@/src/components/About";
@@ -12,11 +12,13 @@ import CareerPlan from "@/src/components/academic/CareerPlan";
 import Certificates from "@/src/components/academic/Certificates";
 import CVSection from "@/src/components/academic/CVSection";
 
+// Use the client-only wrapper so the Hero runs only on the client
+
 export default function Home() {
   return (
     <main className="relative bg-transparent text-slate-900">
       <Navbar />
-      <Hero />
+      <HeroClientWrapper />
       <About />
       <Projects />
       <Skills />
